@@ -1,0 +1,1288 @@
+[2020/07/20 12:34:23] mod=syn|cli=10.0.2.15/36532|srv=140.108.21.103/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/36532|srv=140.108.21.103/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn|cli=10.0.2.15/58698|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/58698|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn|cli=10.0.2.15/53046|srv=104.19.213.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/53046|srv=104.19.213.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn+ack|cli=10.0.2.15/36532|srv=140.108.21.103/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/36532|srv=140.108.21.103/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn|cli=10.0.2.15/46806|srv=192.229.163.113/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/46806|srv=192.229.163.113/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn+ack|cli=10.0.2.15/58698|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/58698|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn+ack|cli=10.0.2.15/53046|srv=104.19.213.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/53046|srv=104.19.213.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn+ack|cli=10.0.2.15/46806|srv=192.229.163.113/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/46806|srv=192.229.163.113/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn|cli=10.0.2.15/38758|srv=96.16.29.61/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/38758|srv=96.16.29.61/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=uptime|cli=10.0.2.15/38758|srv=96.16.29.61/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:23] mod=syn|cli=10.0.2.15/50120|srv=93.184.216.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/50120|srv=93.184.216.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn+ack|cli=10.0.2.15/50120|srv=93.184.216.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/50120|srv=93.184.216.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:23] mod=syn+ack|cli=10.0.2.15/38758|srv=96.16.29.61/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:23] mod=mtu|cli=10.0.2.15/38758|srv=96.16.29.61/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:24] mod=syn|cli=10.0.2.15/49150|srv=13.107.21.200/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:24] mod=mtu|cli=10.0.2.15/49150|srv=13.107.21.200/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:24] mod=uptime|cli=10.0.2.15/49150|srv=13.107.21.200/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=996.85 Hz
+[2020/07/20 12:34:24] mod=syn+ack|cli=10.0.2.15/49150|srv=13.107.21.200/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:24] mod=mtu|cli=10.0.2.15/49150|srv=13.107.21.200/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:24] mod=syn|cli=10.0.2.15/49232|srv=162.115.19.237/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:24] mod=mtu|cli=10.0.2.15/49232|srv=162.115.19.237/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:24] mod=uptime|cli=10.0.2.15/49232|srv=162.115.19.237/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1001.36 Hz
+[2020/07/20 12:34:24] mod=syn+ack|cli=10.0.2.15/49232|srv=162.115.19.237/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:24] mod=mtu|cli=10.0.2.15/49232|srv=162.115.19.237/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:25] mod=syn|cli=10.0.2.15/54200|srv=104.19.212.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:25] mod=mtu|cli=10.0.2.15/54200|srv=104.19.212.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:25] mod=uptime|cli=10.0.2.15/54200|srv=104.19.212.106/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:25] mod=syn+ack|cli=10.0.2.15/54200|srv=104.19.212.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:25] mod=mtu|cli=10.0.2.15/54200|srv=104.19.212.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:25] mod=syn|cli=10.0.2.15/33528|srv=172.217.12.131/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:25] mod=mtu|cli=10.0.2.15/33528|srv=172.217.12.131/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:25] mod=uptime|cli=10.0.2.15/33528|srv=172.217.12.131/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:25] mod=syn+ack|cli=10.0.2.15/33528|srv=172.217.12.131/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:25] mod=mtu|cli=10.0.2.15/33528|srv=172.217.12.131/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:26] mod=syn|cli=10.0.2.15/40864|srv=34.202.223.214/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:26] mod=mtu|cli=10.0.2.15/40864|srv=34.202.223.214/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:26] mod=uptime|cli=10.0.2.15/40864|srv=34.202.223.214/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=998.18 Hz
+[2020/07/20 12:34:26] mod=syn+ack|cli=10.0.2.15/40864|srv=34.202.223.214/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:26] mod=mtu|cli=10.0.2.15/40864|srv=34.202.223.214/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:26] mod=syn|cli=10.0.2.15/56024|srv=152.199.4.210/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:26] mod=mtu|cli=10.0.2.15/56024|srv=152.199.4.210/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:26] mod=syn+ack|cli=10.0.2.15/56024|srv=152.199.4.210/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:26] mod=mtu|cli=10.0.2.15/56024|srv=152.199.4.210/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:26] mod=syn|cli=10.0.2.15/39202|srv=52.42.35.202/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:26] mod=mtu|cli=10.0.2.15/39202|srv=52.42.35.202/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:26] mod=uptime|cli=10.0.2.15/39202|srv=52.42.35.202/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:26] mod=syn+ack|cli=10.0.2.15/39202|srv=52.42.35.202/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:26] mod=mtu|cli=10.0.2.15/39202|srv=52.42.35.202/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/46058|srv=54.239.17.112/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/46058|srv=54.239.17.112/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/46058|srv=54.239.17.112/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=995.73 Hz
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/56132|srv=172.217.3.104/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/56132|srv=172.217.3.104/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/46058|srv=54.239.17.112/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/46058|srv=54.239.17.112/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/56132|srv=172.217.3.104/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/56132|srv=172.217.3.104/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/57850|srv=162.247.242.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/57850|srv=162.247.242.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/57850|srv=162.247.242.21/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/57850|srv=162.247.242.21/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/57850|srv=162.247.242.21/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/51648|srv=31.13.66.19/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/51648|srv=31.13.66.19/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/51648|srv=31.13.66.19/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/51648|srv=31.13.66.19/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/51648|srv=31.13.66.19/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/36212|srv=31.13.71.36/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/36212|srv=31.13.71.36/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/36212|srv=31.13.71.36/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=996.44 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/36212|srv=31.13.71.36/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/36212|srv=31.13.71.36/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/34030|srv=142.250.64.102/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/34030|srv=142.250.64.102/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/34030|srv=142.250.64.102/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/34030|srv=142.250.64.102/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/34030|srv=142.250.64.102/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/59092|srv=172.217.10.226/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/59092|srv=172.217.10.226/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/59092|srv=172.217.10.226/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1010.75 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/59092|srv=172.217.10.226/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/59092|srv=172.217.10.226/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/54268|srv=172.217.11.34/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/54268|srv=172.217.11.34/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/54268|srv=172.217.11.34/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/54268|srv=172.217.11.34/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/54268|srv=172.217.11.34/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/33242|srv=52.22.231.198/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/33242|srv=52.22.231.198/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/33242|srv=52.22.231.198/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/33242|srv=52.22.231.198/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/33242|srv=52.22.231.198/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=syn|cli=10.0.2.15/33346|srv=172.217.11.46/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/33346|srv=172.217.11.46/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:27] mod=uptime|cli=10.0.2.15/33346|srv=172.217.11.46/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=976.74 Hz
+[2020/07/20 12:34:27] mod=syn+ack|cli=10.0.2.15/33346|srv=172.217.11.46/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:27] mod=mtu|cli=10.0.2.15/33346|srv=172.217.11.46/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:28] mod=syn|cli=10.0.2.15/54274|srv=172.217.11.34/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:28] mod=mtu|cli=10.0.2.15/54274|srv=172.217.11.34/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:28] mod=uptime|cli=10.0.2.15/54274|srv=172.217.11.34/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1004.33 Hz
+[2020/07/20 12:34:28] mod=syn+ack|cli=10.0.2.15/54274|srv=172.217.11.34/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:28] mod=mtu|cli=10.0.2.15/54274|srv=172.217.11.34/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:28] mod=syn|cli=10.0.2.15/33248|srv=52.22.231.198/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:28] mod=mtu|cli=10.0.2.15/33248|srv=52.22.231.198/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:28] mod=uptime|cli=10.0.2.15/33248|srv=52.22.231.198/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=983.05 Hz
+[2020/07/20 12:34:28] mod=syn+ack|cli=10.0.2.15/33248|srv=52.22.231.198/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:28] mod=mtu|cli=10.0.2.15/33248|srv=52.22.231.198/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:28] mod=syn|cli=10.0.2.15/43232|srv=172.217.9.228/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:28] mod=mtu|cli=10.0.2.15/43232|srv=172.217.9.228/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:28] mod=uptime|cli=10.0.2.15/43232|srv=172.217.9.228/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:34:28] mod=syn+ack|cli=10.0.2.15/43232|srv=172.217.9.228/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:28] mod=mtu|cli=10.0.2.15/43232|srv=172.217.9.228/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:29] mod=syn|cli=10.0.2.15/58748|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:29] mod=mtu|cli=10.0.2.15/58748|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:29] mod=uptime|cli=10.0.2.15/58748|srv=192.16.31.89/443|subj=cli|uptime=0 days 6 hrs 10 min (modulo 49 days)|raw_freq=1001.18 Hz
+[2020/07/20 12:34:29] mod=syn|cli=10.0.2.15/58750|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:34:29] mod=mtu|cli=10.0.2.15/58750|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:29] mod=syn+ack|cli=10.0.2.15/58750|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:29] mod=mtu|cli=10.0.2.15/58750|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:34:29] mod=syn+ack|cli=10.0.2.15/58748|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:34:29] mod=mtu|cli=10.0.2.15/58748|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn|cli=10.0.2.15/36600|srv=140.108.21.103/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/36600|srv=140.108.21.103/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn|cli=10.0.2.15/58766|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/58766|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn|cli=10.0.2.15/46872|srv=192.229.163.113/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/46872|srv=192.229.163.113/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn|cli=10.0.2.15/50184|srv=93.184.216.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/50184|srv=93.184.216.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn+ack|cli=10.0.2.15/58766|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/58766|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn+ack|cli=10.0.2.15/46872|srv=192.229.163.113/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/46872|srv=192.229.163.113/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn|cli=10.0.2.15/53118|srv=104.19.213.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/53118|srv=104.19.213.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn+ack|cli=10.0.2.15/36600|srv=140.108.21.103/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/36600|srv=140.108.21.103/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn+ack|cli=10.0.2.15/50184|srv=93.184.216.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/50184|srv=93.184.216.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn+ack|cli=10.0.2.15/53118|srv=104.19.213.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/53118|srv=104.19.213.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=syn|cli=10.0.2.15/55600|srv=204.79.197.200/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/55600|srv=204.79.197.200/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:11] mod=uptime|cli=10.0.2.15/55600|srv=204.79.197.200/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1002.51 Hz
+[2020/07/20 12:43:11] mod=syn+ack|cli=10.0.2.15/55600|srv=204.79.197.200/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:11] mod=mtu|cli=10.0.2.15/55600|srv=204.79.197.200/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:12] mod=syn|cli=10.0.2.15/49298|srv=162.115.19.237/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:12] mod=mtu|cli=10.0.2.15/49298|srv=162.115.19.237/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:12] mod=uptime|cli=10.0.2.15/49298|srv=162.115.19.237/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:12] mod=syn+ack|cli=10.0.2.15/49298|srv=162.115.19.237/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:12] mod=mtu|cli=10.0.2.15/49298|srv=162.115.19.237/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:12] mod=syn|cli=10.0.2.15/53124|srv=104.19.213.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:12] mod=mtu|cli=10.0.2.15/53124|srv=104.19.213.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:12] mod=uptime|cli=10.0.2.15/53124|srv=104.19.213.106/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:12] mod=syn+ack|cli=10.0.2.15/53124|srv=104.19.213.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:12] mod=mtu|cli=10.0.2.15/53124|srv=104.19.213.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=syn|cli=10.0.2.15/33594|srv=172.217.12.131/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/33594|srv=172.217.12.131/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=uptime|cli=10.0.2.15/33594|srv=172.217.12.131/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:13] mod=syn+ack|cli=10.0.2.15/33594|srv=172.217.12.131/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/33594|srv=172.217.12.131/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=syn|cli=10.0.2.15/54412|srv=54.210.110.99/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/54412|srv=54.210.110.99/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=uptime|cli=10.0.2.15/54412|srv=54.210.110.99/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:13] mod=syn+ack|cli=10.0.2.15/54412|srv=54.210.110.99/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/54412|srv=54.210.110.99/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=syn|cli=10.0.2.15/56090|srv=152.199.4.210/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/56090|srv=152.199.4.210/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=uptime|cli=10.0.2.15/56090|srv=152.199.4.210/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:13] mod=syn+ack|cli=10.0.2.15/56090|srv=152.199.4.210/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/56090|srv=152.199.4.210/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=syn|cli=10.0.2.15/41788|srv=3.214.17.28/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/41788|srv=3.214.17.28/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=uptime|cli=10.0.2.15/41788|srv=3.214.17.28/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=976.19 Hz
+[2020/07/20 12:43:13] mod=syn+ack|cli=10.0.2.15/41788|srv=3.214.17.28/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/41788|srv=3.214.17.28/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=syn|cli=10.0.2.15/45868|srv=52.3.14.12/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/45868|srv=52.3.14.12/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:13] mod=uptime|cli=10.0.2.15/45868|srv=52.3.14.12/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1008.00 Hz
+[2020/07/20 12:43:13] mod=syn+ack|cli=10.0.2.15/45868|srv=52.3.14.12/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:13] mod=mtu|cli=10.0.2.15/45868|srv=52.3.14.12/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:14] mod=syn|cli=10.0.2.15/46126|srv=54.239.17.112/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:14] mod=mtu|cli=10.0.2.15/46126|srv=54.239.17.112/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:14] mod=uptime|cli=10.0.2.15/46126|srv=54.239.17.112/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=998.62 Hz
+[2020/07/20 12:43:14] mod=syn|cli=10.0.2.15/47834|srv=162.247.242.18/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:14] mod=mtu|cli=10.0.2.15/47834|srv=162.247.242.18/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:14] mod=syn+ack|cli=10.0.2.15/46126|srv=54.239.17.112/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:14] mod=mtu|cli=10.0.2.15/46126|srv=54.239.17.112/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:14] mod=syn+ack|cli=10.0.2.15/47834|srv=162.247.242.18/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:14] mod=mtu|cli=10.0.2.15/47834|srv=162.247.242.18/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/58498|srv=172.217.7.6/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/58498|srv=172.217.7.6/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/58498|srv=172.217.7.6/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/58498|srv=172.217.7.6/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/58498|srv=172.217.7.6/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/45350|srv=172.217.11.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/45350|srv=172.217.11.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/45350|srv=172.217.11.2/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/45350|srv=172.217.11.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/45350|srv=172.217.11.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/33302|srv=52.22.231.198/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/33302|srv=52.22.231.198/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/33302|srv=52.22.231.198/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/33302|srv=52.22.231.198/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/33302|srv=52.22.231.198/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/33304|srv=52.22.231.198/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/33304|srv=52.22.231.198/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/33304|srv=52.22.231.198/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=985.92 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/33304|srv=52.22.231.198/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/33304|srv=52.22.231.198/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/36284|srv=31.13.71.36/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/36284|srv=31.13.71.36/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/36284|srv=31.13.71.36/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/36284|srv=31.13.71.36/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/36284|srv=31.13.71.36/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/52414|srv=172.217.9.238/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/52414|srv=172.217.9.238/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/52414|srv=172.217.9.238/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1015.15 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/52414|srv=172.217.9.238/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/52414|srv=172.217.9.238/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/45360|srv=172.217.11.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/45360|srv=172.217.11.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/45360|srv=172.217.11.2/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=992.48 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/45360|srv=172.217.11.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/45360|srv=172.217.11.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=syn|cli=10.0.2.15/47734|srv=172.217.11.36/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/47734|srv=172.217.11.36/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:15] mod=uptime|cli=10.0.2.15/47734|srv=172.217.11.36/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1010.75 Hz
+[2020/07/20 12:43:15] mod=syn+ack|cli=10.0.2.15/47734|srv=172.217.11.36/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:15] mod=mtu|cli=10.0.2.15/47734|srv=172.217.11.36/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:16] mod=syn|cli=10.0.2.15/58810|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:16] mod=mtu|cli=10.0.2.15/58810|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:16] mod=uptime|cli=10.0.2.15/58810|srv=192.16.31.89/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:16] mod=syn+ack|cli=10.0.2.15/58810|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:16] mod=mtu|cli=10.0.2.15/58810|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:26] mod=syn|cli=10.0.2.15/58812|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:26] mod=mtu|cli=10.0.2.15/58812|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:26] mod=uptime|cli=10.0.2.15/58812|srv=192.16.31.89/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:26] mod=syn+ack|cli=10.0.2.15/58812|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:26] mod=mtu|cli=10.0.2.15/58812|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:43] mod=syn|cli=10.0.2.15/53160|srv=104.19.213.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 12:43:43] mod=mtu|cli=10.0.2.15/53160|srv=104.19.213.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 12:43:43] mod=uptime|cli=10.0.2.15/53160|srv=104.19.213.106/443|subj=cli|uptime=0 days 6 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 12:43:43] mod=syn+ack|cli=10.0.2.15/53160|srv=104.19.213.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 12:43:43] mod=mtu|cli=10.0.2.15/53160|srv=104.19.213.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn|cli=10.0.2.15/36670|srv=140.108.21.103/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/36670|srv=140.108.21.103/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn|cli=10.0.2.15/58836|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/58836|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn+ack|cli=10.0.2.15/36670|srv=140.108.21.103/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/36670|srv=140.108.21.103/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn+ack|cli=10.0.2.15/58836|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/58836|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn|cli=10.0.2.15/46942|srv=192.229.163.113/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/46942|srv=192.229.163.113/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn|cli=10.0.2.15/54328|srv=104.19.212.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/54328|srv=104.19.212.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn+ack|cli=10.0.2.15/46942|srv=192.229.163.113/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/46942|srv=192.229.163.113/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn+ack|cli=10.0.2.15/54328|srv=104.19.212.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/54328|srv=104.19.212.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn|cli=10.0.2.15/50256|srv=93.184.216.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/50256|srv=93.184.216.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn+ack|cli=10.0.2.15/50256|srv=93.184.216.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/50256|srv=93.184.216.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=syn|cli=10.0.2.15/55670|srv=204.79.197.200/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/55670|srv=204.79.197.200/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:32] mod=uptime|cli=10.0.2.15/55670|srv=204.79.197.200/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1002.04 Hz
+[2020/07/20 13:01:32] mod=syn+ack|cli=10.0.2.15/55670|srv=204.79.197.200/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:32] mod=mtu|cli=10.0.2.15/55670|srv=204.79.197.200/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:33] mod=syn|cli=10.0.2.15/49368|srv=162.115.19.237/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:33] mod=mtu|cli=10.0.2.15/49368|srv=162.115.19.237/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:33] mod=uptime|cli=10.0.2.15/49368|srv=162.115.19.237/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=998.55 Hz
+[2020/07/20 13:01:33] mod=syn+ack|cli=10.0.2.15/49368|srv=162.115.19.237/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:33] mod=mtu|cli=10.0.2.15/49368|srv=162.115.19.237/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:33] mod=syn|cli=10.0.2.15/54336|srv=104.19.212.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:33] mod=mtu|cli=10.0.2.15/54336|srv=104.19.212.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:33] mod=uptime|cli=10.0.2.15/54336|srv=104.19.212.106/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1003.46 Hz
+[2020/07/20 13:01:33] mod=syn+ack|cli=10.0.2.15/54336|srv=104.19.212.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:33] mod=mtu|cli=10.0.2.15/54336|srv=104.19.212.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=syn|cli=10.0.2.15/47918|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/47918|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=uptime|cli=10.0.2.15/47918|srv=172.217.12.163/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:34] mod=syn+ack|cli=10.0.2.15/47918|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/47918|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=syn|cli=10.0.2.15/56158|srv=152.199.4.210/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/56158|srv=152.199.4.210/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=uptime|cli=10.0.2.15/56158|srv=152.199.4.210/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=998.25 Hz
+[2020/07/20 13:01:34] mod=syn+ack|cli=10.0.2.15/56158|srv=152.199.4.210/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/56158|srv=152.199.4.210/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=syn|cli=10.0.2.15/57702|srv=52.22.153.171/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/57702|srv=52.22.153.171/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=uptime|cli=10.0.2.15/57702|srv=52.22.153.171/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1017.54 Hz
+[2020/07/20 13:01:34] mod=syn+ack|cli=10.0.2.15/57702|srv=52.22.153.171/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/57702|srv=52.22.153.171/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=syn|cli=10.0.2.15/49910|srv=52.55.235.132/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/49910|srv=52.55.235.132/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:34] mod=uptime|cli=10.0.2.15/49910|srv=52.55.235.132/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:34] mod=syn+ack|cli=10.0.2.15/49910|srv=52.55.235.132/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:34] mod=mtu|cli=10.0.2.15/49910|srv=52.55.235.132/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=syn|cli=10.0.2.15/46194|srv=54.239.17.112/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/46194|srv=54.239.17.112/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=uptime|cli=10.0.2.15/46194|srv=54.239.17.112/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:35] mod=syn|cli=10.0.2.15/56642|srv=172.217.165.136/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/56642|srv=172.217.165.136/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=syn+ack|cli=10.0.2.15/46194|srv=54.239.17.112/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/46194|srv=54.239.17.112/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=syn+ack|cli=10.0.2.15/56642|srv=172.217.165.136/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/56642|srv=172.217.165.136/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=syn|cli=10.0.2.15/47904|srv=162.247.242.18/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/47904|srv=162.247.242.18/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=syn+ack|cli=10.0.2.15/47904|srv=162.247.242.18/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/47904|srv=162.247.242.18/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=syn|cli=10.0.2.15/38490|srv=157.240.0.12/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/38490|srv=157.240.0.12/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:35] mod=uptime|cli=10.0.2.15/38490|srv=157.240.0.12/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:35] mod=syn+ack|cli=10.0.2.15/38490|srv=157.240.0.12/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:35] mod=mtu|cli=10.0.2.15/38490|srv=157.240.0.12/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/40652|srv=54.157.65.136/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/40652|srv=54.157.65.136/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/40652|srv=54.157.65.136/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/40652|srv=54.157.65.136/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/40652|srv=54.157.65.136/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/40654|srv=54.157.65.136/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/40654|srv=54.157.65.136/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/40654|srv=54.157.65.136/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/40654|srv=54.157.65.136/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/40654|srv=54.157.65.136/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/41078|srv=172.217.10.134/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/41078|srv=172.217.10.134/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/41078|srv=172.217.10.134/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/41078|srv=172.217.10.134/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/48206|srv=172.217.10.14/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/48206|srv=172.217.10.14/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/48206|srv=172.217.10.14/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/48206|srv=172.217.10.14/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/48206|srv=172.217.10.14/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/55454|srv=172.217.10.130/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/55454|srv=172.217.10.130/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/55454|srv=172.217.10.130/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=992.31 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/55454|srv=172.217.10.130/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/55454|srv=172.217.10.130/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/37212|srv=31.13.66.35/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/37212|srv=31.13.66.35/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/37212|srv=31.13.66.35/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1015.87 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/37212|srv=31.13.66.35/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/37212|srv=31.13.66.35/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/55458|srv=172.217.10.130/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/55458|srv=172.217.10.130/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/55458|srv=172.217.10.130/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/55458|srv=172.217.10.130/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/55458|srv=172.217.10.130/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=syn|cli=10.0.2.15/43366|srv=172.217.9.228/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/43366|srv=172.217.9.228/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:36] mod=uptime|cli=10.0.2.15/43366|srv=172.217.9.228/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:36] mod=syn+ack|cli=10.0.2.15/43366|srv=172.217.9.228/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:36] mod=mtu|cli=10.0.2.15/43366|srv=172.217.9.228/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:37] mod=syn|cli=10.0.2.15/58882|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:37] mod=mtu|cli=10.0.2.15/58882|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:37] mod=uptime|cli=10.0.2.15/58882|srv=192.16.31.89/443|subj=cli|uptime=0 days 6 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:37] mod=syn+ack|cli=10.0.2.15/58882|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:37] mod=mtu|cli=10.0.2.15/58882|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:47] mod=syn|cli=10.0.2.15/58884|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:47] mod=mtu|cli=10.0.2.15/58884|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:47] mod=uptime|cli=10.0.2.15/58884|srv=192.16.31.89/443|subj=cli|uptime=0 days 6 hrs 38 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 13:01:47] mod=syn|cli=10.0.2.15/58886|srv=192.16.31.89/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 13:01:47] mod=mtu|cli=10.0.2.15/58886|srv=192.16.31.89/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:47] mod=syn+ack|cli=10.0.2.15/58884|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:47] mod=mtu|cli=10.0.2.15/58884|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 13:01:47] mod=syn+ack|cli=10.0.2.15/58886|srv=192.16.31.89/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 13:01:47] mod=mtu|cli=10.0.2.15/58886|srv=192.16.31.89/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/47618|srv=104.244.37.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/47618|srv=104.244.37.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/49792|srv=69.147.92.11/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/49792|srv=69.147.92.11/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/49792|srv=69.147.92.11/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/49792|srv=69.147.92.11/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/41150|srv=151.101.65.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/41150|srv=151.101.65.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/42166|srv=172.217.12.170/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/42166|srv=172.217.12.170/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/41150|srv=151.101.65.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/41150|srv=151.101.65.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/42166|srv=172.217.12.170/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/42166|srv=172.217.12.170/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/49130|srv=172.217.6.226/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/49130|srv=172.217.6.226/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/53270|srv=151.101.129.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/53270|srv=151.101.129.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/53270|srv=151.101.129.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/53270|srv=151.101.129.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/47618|srv=104.244.37.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/47618|srv=104.244.37.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/49134|srv=172.217.6.226/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/49134|srv=172.217.6.226/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/49130|srv=172.217.6.226/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/49130|srv=172.217.6.226/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/49134|srv=172.217.6.226/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/49134|srv=172.217.6.226/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=syn|cli=10.0.2.15/39720|srv=192.0.73.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/39720|srv=192.0.73.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:26] mod=uptime|cli=10.0.2.15/39720|srv=192.0.73.2/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:26] mod=syn+ack|cli=10.0.2.15/39720|srv=192.0.73.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:26] mod=mtu|cli=10.0.2.15/39720|srv=192.0.73.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:27] mod=syn|cli=10.0.2.15/34360|srv=172.217.11.46/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:27] mod=mtu|cli=10.0.2.15/34360|srv=172.217.11.46/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:27] mod=uptime|cli=10.0.2.15/34360|srv=172.217.11.46/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:27] mod=syn+ack|cli=10.0.2.15/34360|srv=172.217.11.46/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:27] mod=mtu|cli=10.0.2.15/34360|srv=172.217.11.46/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:27] mod=syn|cli=10.0.2.15/49468|srv=104.67.0.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:27] mod=mtu|cli=10.0.2.15/49468|srv=104.67.0.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:27] mod=uptime|cli=10.0.2.15/49468|srv=104.67.0.163/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:27] mod=syn+ack|cli=10.0.2.15/49468|srv=104.67.0.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:27] mod=mtu|cli=10.0.2.15/49468|srv=104.67.0.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:28] mod=syn|cli=10.0.2.15/49812|srv=192.184.69.141/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:28] mod=mtu|cli=10.0.2.15/49812|srv=192.184.69.141/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:28] mod=uptime|cli=10.0.2.15/49812|srv=192.184.69.141/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:28] mod=syn+ack|cli=10.0.2.15/49812|srv=192.184.69.141/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:28] mod=mtu|cli=10.0.2.15/49812|srv=192.184.69.141/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:28] mod=syn|cli=10.0.2.15/60118|srv=172.217.10.226/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:28] mod=mtu|cli=10.0.2.15/60118|srv=172.217.10.226/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:28] mod=uptime|cli=10.0.2.15/60118|srv=172.217.10.226/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:28] mod=syn+ack|cli=10.0.2.15/60118|srv=172.217.10.226/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:28] mod=mtu|cli=10.0.2.15/60118|srv=172.217.10.226/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:28] mod=syn|cli=10.0.2.15/41282|srv=172.217.3.97/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:28] mod=mtu|cli=10.0.2.15/41282|srv=172.217.3.97/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:28] mod=uptime|cli=10.0.2.15/41282|srv=172.217.3.97/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:28] mod=syn+ack|cli=10.0.2.15/41282|srv=172.217.3.97/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:28] mod=mtu|cli=10.0.2.15/41282|srv=172.217.3.97/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/51416|srv=52.55.211.134/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/51416|srv=52.55.211.134/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=uptime|cli=10.0.2.15/51416|srv=52.55.211.134/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/51416|srv=52.55.211.134/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/51416|srv=52.55.211.134/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/45064|srv=74.6.138.192/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/45064|srv=74.6.138.192/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=uptime|cli=10.0.2.15/45064|srv=74.6.138.192/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/53164|srv=142.250.64.100/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/53164|srv=142.250.64.100/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/53164|srv=142.250.64.100/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/53164|srv=142.250.64.100/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/45064|srv=74.6.138.192/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/45064|srv=74.6.138.192/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/58846|srv=104.16.3.35/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/58846|srv=104.16.3.35/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=uptime|cli=10.0.2.15/58846|srv=104.16.3.35/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=993.71 Hz
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/57822|srv=34.203.96.228/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/57822|srv=34.203.96.228/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/58846|srv=104.16.3.35/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/58846|srv=104.16.3.35/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/57822|srv=34.203.96.228/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/57822|srv=34.203.96.228/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/50530|srv=172.217.12.166/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/50530|srv=172.217.12.166/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=uptime|cli=10.0.2.15/50530|srv=172.217.12.166/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/50530|srv=172.217.12.166/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/50530|srv=172.217.12.166/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/58338|srv=35.169.54.207/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/58338|srv=35.169.54.207/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=uptime|cli=10.0.2.15/58338|srv=35.169.54.207/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/58338|srv=35.169.54.207/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/58338|srv=35.169.54.207/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn|cli=10.0.2.15/41568|srv=172.217.10.66/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/41568|srv=172.217.10.66/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:29] mod=syn+ack|cli=10.0.2.15/41568|srv=172.217.10.66/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:29] mod=mtu|cli=10.0.2.15/41568|srv=172.217.10.66/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/47660|srv=104.244.37.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/47660|srv=104.244.37.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=uptime|cli=10.0.2.15/47660|srv=104.244.37.20/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1003.72 Hz
+[2020/07/20 16:21:30] mod=syn+ack|cli=10.0.2.15/47660|srv=104.244.37.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/47660|srv=104.244.37.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/50696|srv=54.211.181.31/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/50696|srv=54.211.181.31/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=uptime|cli=10.0.2.15/50696|srv=54.211.181.31/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:30] mod=syn+ack|cli=10.0.2.15/50696|srv=54.211.181.31/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/50696|srv=54.211.181.31/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/49782|srv=173.222.175.140/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/49782|srv=173.222.175.140/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=uptime|cli=10.0.2.15/49782|srv=173.222.175.140/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=962.96 Hz
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/58384|srv=172.217.165.134/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/58384|srv=172.217.165.134/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=uptime|cli=10.0.2.15/58384|srv=172.217.165.134/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1015.87 Hz
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/33480|srv=185.167.164.42/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/33480|srv=185.167.164.42/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/52460|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/52460|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn+ack|cli=10.0.2.15/49782|srv=173.222.175.140/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/49782|srv=173.222.175.140/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn+ack|cli=10.0.2.15/33480|srv=185.167.164.42/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/33480|srv=185.167.164.42/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn+ack|cli=10.0.2.15/58384|srv=172.217.165.134/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/58384|srv=172.217.165.134/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/52462|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/52462|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=uptime|cli=10.0.2.15/52462|srv=92.242.140.21/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1004.39 Hz
+[2020/07/20 16:21:30] mod=syn|cli=10.0.2.15/49178|srv=172.217.6.226/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/49178|srv=172.217.6.226/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:30] mod=uptime|cli=10.0.2.15/49178|srv=172.217.6.226/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=997.24 Hz
+[2020/07/20 16:21:30] mod=syn+ack|cli=10.0.2.15/49178|srv=172.217.6.226/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:30] mod=mtu|cli=10.0.2.15/49178|srv=172.217.6.226/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:31] mod=syn|cli=10.0.2.15/45006|srv=172.217.10.1/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:31] mod=mtu|cli=10.0.2.15/45006|srv=172.217.10.1/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:31] mod=uptime|cli=10.0.2.15/45006|srv=172.217.10.1/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1013.70 Hz
+[2020/07/20 16:21:31] mod=syn+ack|cli=10.0.2.15/45006|srv=172.217.10.1/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:31] mod=mtu|cli=10.0.2.15/45006|srv=172.217.10.1/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:31] mod=syn|cli=10.0.2.15/33020|srv=23.193.218.75/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:31] mod=mtu|cli=10.0.2.15/33020|srv=23.193.218.75/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:31] mod=uptime|cli=10.0.2.15/33020|srv=23.193.218.75/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:21:31] mod=syn+ack|cli=10.0.2.15/33020|srv=23.193.218.75/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:31] mod=mtu|cli=10.0.2.15/33020|srv=23.193.218.75/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:31] mod=syn|cli=10.0.2.15/49798|srv=173.222.175.140/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:21:31] mod=mtu|cli=10.0.2.15/49798|srv=173.222.175.140/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:21:31] mod=uptime|cli=10.0.2.15/49798|srv=173.222.175.140/443|subj=cli|uptime=0 days 9 hrs 57 min (modulo 49 days)|raw_freq=998.83 Hz
+[2020/07/20 16:21:31] mod=syn+ack|cli=10.0.2.15/49798|srv=173.222.175.140/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:21:31] mod=mtu|cli=10.0.2.15/49798|srv=173.222.175.140/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:22:33] mod=syn|cli=10.0.2.15/52460|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:22:33] mod=mtu|cli=10.0.2.15/52460|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:22:33] mod=uptime|cli=10.0.2.15/52460|srv=92.242.140.21/443|subj=cli|uptime=0 days 9 hrs 58 min (modulo 49 days)|raw_freq=1000.02 Hz
+[2020/07/20 16:22:33] mod=syn|cli=10.0.2.15/52462|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:22:33] mod=mtu|cli=10.0.2.15/52462|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:22:33] mod=uptime|cli=10.0.2.15/52462|srv=92.242.140.21/443|subj=cli|uptime=0 days 9 hrs 58 min (modulo 49 days)|raw_freq=994.82 Hz
+[2020/07/20 16:24:45] mod=syn|cli=10.0.2.15/43948|srv=142.250.64.74/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:24:45] mod=mtu|cli=10.0.2.15/43948|srv=142.250.64.74/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:24:45] mod=uptime|cli=10.0.2.15/43948|srv=142.250.64.74/443|subj=cli|uptime=0 days 10 hrs 0 min (modulo 49 days)|raw_freq=1000.01 Hz
+[2020/07/20 16:24:46] mod=syn+ack|cli=10.0.2.15/43948|srv=142.250.64.74/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:24:46] mod=mtu|cli=10.0.2.15/43948|srv=142.250.64.74/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:27:54] mod=syn|cli=10.0.2.15/56684|srv=99.86.227.35/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:27:54] mod=mtu|cli=10.0.2.15/56684|srv=99.86.227.35/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:27:54] mod=uptime|cli=10.0.2.15/56684|srv=99.86.227.35/443|subj=cli|uptime=0 days 10 hrs 4 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:27:54] mod=syn+ack|cli=10.0.2.15/56684|srv=99.86.227.35/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:27:54] mod=mtu|cli=10.0.2.15/56684|srv=99.86.227.35/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:30:46] mod=syn|cli=10.0.2.15/36918|srv=172.217.10.138/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:30:46] mod=mtu|cli=10.0.2.15/36918|srv=172.217.10.138/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:30:46] mod=uptime|cli=10.0.2.15/36918|srv=172.217.10.138/443|subj=cli|uptime=0 days 10 hrs 7 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:30:46] mod=syn+ack|cli=10.0.2.15/36918|srv=172.217.10.138/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:30:46] mod=mtu|cli=10.0.2.15/36918|srv=172.217.10.138/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:32:54] mod=syn|cli=10.0.2.15/53082|srv=99.86.227.142/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:32:54] mod=mtu|cli=10.0.2.15/53082|srv=99.86.227.142/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:32:54] mod=uptime|cli=10.0.2.15/53082|srv=99.86.227.142/443|subj=cli|uptime=0 days 10 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:32:54] mod=syn+ack|cli=10.0.2.15/53082|srv=99.86.227.142/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:32:54] mod=mtu|cli=10.0.2.15/53082|srv=99.86.227.142/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:36:47] mod=syn|cli=10.0.2.15/36922|srv=172.217.10.138/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:36:47] mod=mtu|cli=10.0.2.15/36922|srv=172.217.10.138/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:36:47] mod=uptime|cli=10.0.2.15/36922|srv=172.217.10.138/443|subj=cli|uptime=0 days 10 hrs 13 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:36:48] mod=syn+ack|cli=10.0.2.15/36922|srv=172.217.10.138/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:36:48] mod=mtu|cli=10.0.2.15/36922|srv=172.217.10.138/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:37:54] mod=syn|cli=10.0.2.15/56692|srv=99.86.227.35/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:37:54] mod=mtu|cli=10.0.2.15/56692|srv=99.86.227.35/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:37:54] mod=uptime|cli=10.0.2.15/56692|srv=99.86.227.35/443|subj=cli|uptime=0 days 10 hrs 14 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:37:54] mod=syn+ack|cli=10.0.2.15/56692|srv=99.86.227.35/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:37:54] mod=mtu|cli=10.0.2.15/56692|srv=99.86.227.35/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:38:37] mod=syn|cli=10.0.2.15/59116|srv=142.250.64.67/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:38:37] mod=mtu|cli=10.0.2.15/59116|srv=142.250.64.67/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:38:37] mod=uptime|cli=10.0.2.15/59116|srv=142.250.64.67/443|subj=cli|uptime=0 days 10 hrs 14 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:38:37] mod=syn+ack|cli=10.0.2.15/59116|srv=142.250.64.67/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:38:37] mod=mtu|cli=10.0.2.15/59116|srv=142.250.64.67/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:42:54] mod=syn|cli=10.0.2.15/53090|srv=99.86.227.142/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:42:54] mod=mtu|cli=10.0.2.15/53090|srv=99.86.227.142/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:42:54] mod=uptime|cli=10.0.2.15/53090|srv=99.86.227.142/443|subj=cli|uptime=0 days 10 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:42:54] mod=syn+ack|cli=10.0.2.15/53090|srv=99.86.227.142/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:42:54] mod=mtu|cli=10.0.2.15/53090|srv=99.86.227.142/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn|cli=10.0.2.15/59516|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/59516|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn|cli=10.0.2.15/57974|srv=69.147.82.61/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/57974|srv=69.147.82.61/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn+ack|cli=10.0.2.15/57974|srv=69.147.82.61/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/57974|srv=69.147.82.61/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn|cli=10.0.2.15/41318|srv=151.101.65.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/41318|srv=151.101.65.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn|cli=10.0.2.15/50588|srv=172.217.10.234/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/50588|srv=172.217.10.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn+ack|cli=10.0.2.15/41318|srv=151.101.65.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/41318|srv=151.101.65.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn+ack|cli=10.0.2.15/50588|srv=172.217.10.234/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/50588|srv=172.217.10.234/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:30] mod=syn+ack|cli=10.0.2.15/59516|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:55:30] mod=mtu|cli=10.0.2.15/59516|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:31] mod=syn|cli=10.0.2.15/52478|srv=192.184.69.152/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:55:31] mod=mtu|cli=10.0.2.15/52478|srv=192.184.69.152/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:31] mod=uptime|cli=10.0.2.15/52478|srv=192.184.69.152/443|subj=cli|uptime=0 days 10 hrs 31 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:55:31] mod=syn+ack|cli=10.0.2.15/52478|srv=192.184.69.152/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:55:31] mod=mtu|cli=10.0.2.15/52478|srv=192.184.69.152/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:32] mod=syn|cli=10.0.2.15/58478|srv=172.217.10.129/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:55:32] mod=mtu|cli=10.0.2.15/58478|srv=172.217.10.129/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:55:32] mod=uptime|cli=10.0.2.15/58478|srv=172.217.10.129/443|subj=cli|uptime=0 days 10 hrs 31 min (modulo 49 days)|raw_freq=1001.05 Hz
+[2020/07/20 16:55:32] mod=syn+ack|cli=10.0.2.15/58478|srv=172.217.10.129/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:55:32] mod=mtu|cli=10.0.2.15/58478|srv=172.217.10.129/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:57:54] mod=syn|cli=10.0.2.15/36608|srv=99.86.227.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:57:54] mod=mtu|cli=10.0.2.15/36608|srv=99.86.227.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:57:54] mod=uptime|cli=10.0.2.15/36608|srv=99.86.227.21/443|subj=cli|uptime=0 days 10 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 16:57:54] mod=syn+ack|cli=10.0.2.15/36608|srv=99.86.227.21/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:57:54] mod=mtu|cli=10.0.2.15/36608|srv=99.86.227.21/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:58:15] mod=syn|cli=10.0.2.15/50596|srv=172.217.10.234/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:58:15] mod=mtu|cli=10.0.2.15/50596|srv=172.217.10.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:58:15] mod=syn+ack|cli=10.0.2.15/50596|srv=172.217.10.234/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:58:15] mod=mtu|cli=10.0.2.15/50596|srv=172.217.10.234/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:58:15] mod=syn|cli=10.0.2.15/39890|srv=192.0.73.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 16:58:15] mod=mtu|cli=10.0.2.15/39890|srv=192.0.73.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 16:58:15] mod=uptime|cli=10.0.2.15/39890|srv=192.0.73.2/443|subj=cli|uptime=0 days 10 hrs 34 min (modulo 49 days)|raw_freq=989.58 Hz
+[2020/07/20 16:58:15] mod=syn+ack|cli=10.0.2.15/39890|srv=192.0.73.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 16:58:15] mod=mtu|cli=10.0.2.15/39890|srv=192.0.73.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:00:53] mod=syn|cli=10.0.2.15/41558|srv=172.217.10.42/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:00:53] mod=mtu|cli=10.0.2.15/41558|srv=172.217.10.42/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:00:53] mod=uptime|cli=10.0.2.15/41558|srv=172.217.10.42/443|subj=cli|uptime=0 days 10 hrs 37 min (modulo 49 days)|raw_freq=1000.01 Hz
+[2020/07/20 17:00:53] mod=syn+ack|cli=10.0.2.15/41558|srv=172.217.10.42/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:00:53] mod=mtu|cli=10.0.2.15/41558|srv=172.217.10.42/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:01:29] mod=syn|cli=10.0.2.15/55600|srv=92.242.140.21/80|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:01:29] mod=mtu|cli=10.0.2.15/55600|srv=92.242.140.21/80|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:01:29] mod=uptime|cli=10.0.2.15/55600|srv=92.242.140.21/80|subj=cli|uptime=0 days 10 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:01:29] mod=syn|cli=10.0.2.15/55602|srv=92.242.140.21/80|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:01:29] mod=mtu|cli=10.0.2.15/55602|srv=92.242.140.21/80|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:01:29] mod=syn|cli=10.0.2.15/55604|srv=92.242.140.21/80|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:01:29] mod=mtu|cli=10.0.2.15/55604|srv=92.242.140.21/80|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:01:29] mod=syn+ack|cli=10.0.2.15/55600|srv=92.242.140.21/80|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:01:29] mod=mtu|cli=10.0.2.15/55600|srv=92.242.140.21/80|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:01:29] mod=http request|cli=10.0.2.15/55600|srv=92.242.140.21/80|subj=cli|app=???[2020/07/20 17:10:53] mod=syn|cli=10.0.2.15/58424|srv=69.147.92.12/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/58424|srv=69.147.92.12/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn+ack|cli=10.0.2.15/58424|srv=69.147.92.12/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/58424|srv=69.147.92.12/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn|cli=10.0.2.15/59636|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/59636|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=uptime|cli=10.0.2.15/59636|srv=104.244.39.20/443|subj=cli|uptime=0 days 10 hrs 47 min (modulo 49 days)|raw_freq=966.67 Hz
+[2020/07/20 17:10:53] mod=syn|cli=10.0.2.15/34864|srv=172.217.6.202/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/34864|srv=172.217.6.202/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn|cli=10.0.2.15/42576|srv=172.217.11.33/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/42576|srv=172.217.11.33/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn+ack|cli=10.0.2.15/34864|srv=172.217.6.202/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/34864|srv=172.217.6.202/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn+ack|cli=10.0.2.15/42576|srv=172.217.11.33/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/42576|srv=172.217.11.33/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn|cli=10.0.2.15/50084|srv=69.147.92.11/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/50084|srv=69.147.92.11/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=uptime|cli=10.0.2.15/50084|srv=69.147.92.11/443|subj=cli|uptime=0 days 10 hrs 47 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:10:53] mod=syn+ack|cli=10.0.2.15/59636|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/59636|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:53] mod=syn+ack|cli=10.0.2.15/50084|srv=69.147.92.11/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:53] mod=mtu|cli=10.0.2.15/50084|srv=69.147.92.11/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:54] mod=syn|cli=10.0.2.15/56972|srv=192.184.69.149/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:54] mod=mtu|cli=10.0.2.15/56972|srv=192.184.69.149/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:54] mod=uptime|cli=10.0.2.15/56972|srv=192.184.69.149/443|subj=cli|uptime=0 days 10 hrs 47 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:10:54] mod=syn+ack|cli=10.0.2.15/56972|srv=192.184.69.149/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:54] mod=mtu|cli=10.0.2.15/56972|srv=192.184.69.149/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:54] mod=syn|cli=10.0.2.15/49658|srv=172.217.12.129/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:10:54] mod=mtu|cli=10.0.2.15/49658|srv=172.217.12.129/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:10:54] mod=uptime|cli=10.0.2.15/49658|srv=172.217.12.129/443|subj=cli|uptime=0 days 10 hrs 47 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:10:54] mod=syn+ack|cli=10.0.2.15/49658|srv=172.217.12.129/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:10:54] mod=mtu|cli=10.0.2.15/49658|srv=172.217.12.129/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:12:55] mod=syn|cli=10.0.2.15/57024|srv=99.86.227.217/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:12:55] mod=mtu|cli=10.0.2.15/57024|srv=99.86.227.217/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:12:55] mod=uptime|cli=10.0.2.15/57024|srv=99.86.227.217/443|subj=cli|uptime=0 days 10 hrs 49 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:12:55] mod=syn+ack|cli=10.0.2.15/57024|srv=99.86.227.217/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:12:55] mod=mtu|cli=10.0.2.15/57024|srv=99.86.227.217/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:27] mod=syn|cli=10.0.2.15/36148|srv=172.217.165.138/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:14:27] mod=mtu|cli=10.0.2.15/36148|srv=172.217.165.138/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:27] mod=syn+ack|cli=10.0.2.15/36148|srv=172.217.165.138/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:14:27] mod=mtu|cli=10.0.2.15/36148|srv=172.217.165.138/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:27] mod=syn|cli=10.0.2.15/40010|srv=192.0.73.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:14:27] mod=mtu|cli=10.0.2.15/40010|srv=192.0.73.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:27] mod=uptime|cli=10.0.2.15/40010|srv=192.0.73.2/443|subj=cli|uptime=0 days 10 hrs 50 min (modulo 49 days)|raw_freq=993.98 Hz
+[2020/07/20 17:14:27] mod=syn+ack|cli=10.0.2.15/40010|srv=192.0.73.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:14:27] mod=mtu|cli=10.0.2.15/40010|srv=192.0.73.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:28] mod=syn|cli=10.0.2.15/47318|srv=192.184.69.231/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:14:28] mod=mtu|cli=10.0.2.15/47318|srv=192.184.69.231/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:28] mod=uptime|cli=10.0.2.15/47318|srv=192.184.69.231/443|subj=cli|uptime=0 days 10 hrs 50 min (modulo 49 days)|raw_freq=1000.63 Hz
+[2020/07/20 17:14:29] mod=syn+ack|cli=10.0.2.15/47318|srv=192.184.69.231/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:14:29] mod=mtu|cli=10.0.2.15/47318|srv=192.184.69.231/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:29] mod=syn|cli=10.0.2.15/45256|srv=172.217.10.1/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:14:29] mod=mtu|cli=10.0.2.15/45256|srv=172.217.10.1/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:29] mod=uptime|cli=10.0.2.15/45256|srv=172.217.10.1/443|subj=cli|uptime=0 days 10 hrs 50 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:14:29] mod=syn+ack|cli=10.0.2.15/45256|srv=172.217.10.1/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:14:29] mod=mtu|cli=10.0.2.15/45256|srv=172.217.10.1/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:29] mod=syn|cli=10.0.2.15/42594|srv=172.217.11.33/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:14:29] mod=mtu|cli=10.0.2.15/42594|srv=172.217.11.33/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:14:29] mod=uptime|cli=10.0.2.15/42594|srv=172.217.11.33/443|subj=cli|uptime=0 days 10 hrs 50 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:14:29] mod=syn+ack|cli=10.0.2.15/42594|srv=172.217.11.33/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:14:29] mod=mtu|cli=10.0.2.15/42594|srv=172.217.11.33/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn|cli=10.0.2.15/46898|srv=151.101.193.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/46898|srv=151.101.193.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn+ack|cli=10.0.2.15/46898|srv=151.101.193.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/46898|srv=151.101.193.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn|cli=10.0.2.15/53248|srv=172.217.10.10/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/53248|srv=172.217.10.10/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn|cli=10.0.2.15/46902|srv=151.101.193.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/46902|srv=151.101.193.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn|cli=10.0.2.15/56616|srv=172.217.7.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/56616|srv=172.217.7.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn+ack|cli=10.0.2.15/53248|srv=172.217.10.10/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/53248|srv=172.217.10.10/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn+ack|cli=10.0.2.15/46902|srv=151.101.193.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/46902|srv=151.101.193.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:25] mod=syn+ack|cli=10.0.2.15/56616|srv=172.217.7.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:25] mod=mtu|cli=10.0.2.15/56616|srv=172.217.7.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=syn|cli=10.0.2.15/56618|srv=172.217.7.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/56618|srv=172.217.7.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=uptime|cli=10.0.2.15/56618|srv=172.217.7.2/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=991.15 Hz
+[2020/07/20 17:33:26] mod=syn+ack|cli=10.0.2.15/56618|srv=172.217.7.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/56618|srv=172.217.7.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=syn|cli=10.0.2.15/40042|srv=192.0.73.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/40042|srv=192.0.73.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=uptime|cli=10.0.2.15/40042|srv=192.0.73.2/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1021.28 Hz
+[2020/07/20 17:33:26] mod=syn+ack|cli=10.0.2.15/40042|srv=192.0.73.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/40042|srv=192.0.73.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=syn|cli=10.0.2.15/42992|srv=23.202.42.30/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/42992|srv=23.202.42.30/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=uptime|cli=10.0.2.15/42992|srv=23.202.42.30/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=997.82 Hz
+[2020/07/20 17:33:26] mod=syn+ack|cli=10.0.2.15/42992|srv=23.202.42.30/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/42992|srv=23.202.42.30/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=syn|cli=10.0.2.15/36608|srv=142.250.64.78/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/36608|srv=142.250.64.78/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:26] mod=uptime|cli=10.0.2.15/36608|srv=142.250.64.78/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1005.35 Hz
+[2020/07/20 17:33:26] mod=syn+ack|cli=10.0.2.15/36608|srv=142.250.64.78/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:26] mod=mtu|cli=10.0.2.15/36608|srv=142.250.64.78/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:27] mod=syn|cli=10.0.2.15/55368|srv=172.217.3.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:27] mod=mtu|cli=10.0.2.15/55368|srv=172.217.3.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:27] mod=uptime|cli=10.0.2.15/55368|srv=172.217.3.98/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/55368|srv=172.217.3.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/55368|srv=172.217.3.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/50484|srv=172.217.6.225/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/50484|srv=172.217.6.225/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/50484|srv=172.217.6.225/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=967.74 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/50484|srv=172.217.6.225/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/50484|srv=172.217.6.225/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/40250|srv=192.184.68.188/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/40250|srv=192.184.68.188/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/40250|srv=192.184.68.188/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/40250|srv=192.184.68.188/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/40250|srv=192.184.68.188/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/45384|srv=74.6.138.192/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/45384|srv=74.6.138.192/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/45384|srv=74.6.138.192/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/45384|srv=74.6.138.192/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/45384|srv=74.6.138.192/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/58488|srv=69.147.92.12/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/58488|srv=69.147.92.12/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/58488|srv=69.147.92.12/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/58488|srv=69.147.92.12/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/58488|srv=69.147.92.12/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/44260|srv=52.54.223.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/44260|srv=52.54.223.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/44260|srv=52.54.223.98/443|subj=cli|uptime=0 days 10 hrs 8 min (modulo 45 days)|raw_freq=1038.46 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/44260|srv=52.54.223.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/44260|srv=52.54.223.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/41904|srv=104.16.30.34/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/41904|srv=104.16.30.34/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/41904|srv=104.16.30.34/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/41904|srv=104.16.30.34/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/41904|srv=104.16.30.34/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/59704|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/59704|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/59704|srv=104.244.39.20/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/59706|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/59706|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/59708|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/59708|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/35982|srv=172.217.6.198/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/35982|srv=172.217.6.198/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/35982|srv=172.217.6.198/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/35982|srv=172.217.6.198/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/35982|srv=172.217.6.198/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/59708|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/59708|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/59706|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/59706|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/59704|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/59704|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=syn|cli=10.0.2.15/58664|srv=35.169.54.207/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/58664|srv=35.169.54.207/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:28] mod=uptime|cli=10.0.2.15/58664|srv=35.169.54.207/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:28] mod=syn+ack|cli=10.0.2.15/58664|srv=35.169.54.207/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:28] mod=mtu|cli=10.0.2.15/58664|srv=35.169.54.207/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/50102|srv=173.222.175.140/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/50102|srv=173.222.175.140/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=uptime|cli=10.0.2.15/50102|srv=173.222.175.140/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/44890|srv=3.220.159.24/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/44890|srv=3.220.159.24/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn+ack|cli=10.0.2.15/44890|srv=3.220.159.24/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/44890|srv=3.220.159.24/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn+ack|cli=10.0.2.15/50102|srv=173.222.175.140/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/50102|srv=173.222.175.140/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/52778|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/52778|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=uptime|cli=10.0.2.15/52778|srv=92.242.140.21/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/40388|srv=185.167.164.51/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/40388|srv=185.167.164.51/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/38224|srv=172.217.3.102/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/38224|srv=172.217.3.102/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn+ack|cli=10.0.2.15/40388|srv=185.167.164.51/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/40388|srv=185.167.164.51/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn+ack|cli=10.0.2.15/38224|srv=172.217.3.102/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/38224|srv=172.217.3.102/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/52784|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/52784|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=uptime|cli=10.0.2.15/52784|srv=92.242.140.21/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:29] mod=syn|cli=10.0.2.15/56662|srv=172.217.7.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:29] mod=mtu|cli=10.0.2.15/56662|srv=172.217.7.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:29] mod=uptime|cli=10.0.2.15/56662|srv=172.217.7.2/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:30] mod=syn+ack|cli=10.0.2.15/56662|srv=172.217.7.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:30] mod=mtu|cli=10.0.2.15/56662|srv=172.217.7.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:30] mod=syn|cli=10.0.2.15/54522|srv=23.195.100.159/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:30] mod=mtu|cli=10.0.2.15/54522|srv=23.195.100.159/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:30] mod=uptime|cli=10.0.2.15/54522|srv=23.195.100.159/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:30] mod=syn+ack|cli=10.0.2.15/54522|srv=23.195.100.159/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:30] mod=mtu|cli=10.0.2.15/54522|srv=23.195.100.159/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:31] mod=syn|cli=10.0.2.15/50118|srv=173.222.175.140/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:33:31] mod=mtu|cli=10.0.2.15/50118|srv=173.222.175.140/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:33:31] mod=uptime|cli=10.0.2.15/50118|srv=173.222.175.140/443|subj=cli|uptime=0 days 11 hrs 9 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:33:31] mod=syn+ack|cli=10.0.2.15/50118|srv=173.222.175.140/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:33:31] mod=mtu|cli=10.0.2.15/50118|srv=173.222.175.140/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:12] mod=syn|cli=10.0.2.15/59732|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:12] mod=mtu|cli=10.0.2.15/59732|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:12] mod=uptime|cli=10.0.2.15/59732|srv=104.244.39.20/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:34:12] mod=syn|cli=10.0.2.15/53306|srv=172.217.10.10/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:12] mod=mtu|cli=10.0.2.15/53306|srv=172.217.10.10/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:12] mod=syn|cli=10.0.2.15/49776|srv=172.217.6.195/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:12] mod=mtu|cli=10.0.2.15/49776|srv=172.217.6.195/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:12] mod=syn+ack|cli=10.0.2.15/53306|srv=172.217.10.10/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:12] mod=mtu|cli=10.0.2.15/53306|srv=172.217.10.10/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:12] mod=syn+ack|cli=10.0.2.15/49776|srv=172.217.6.195/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:12] mod=mtu|cli=10.0.2.15/49776|srv=172.217.6.195/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:12] mod=syn+ack|cli=10.0.2.15/59732|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:12] mod=mtu|cli=10.0.2.15/59732|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/42276|srv=23.193.217.206/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/42276|srv=23.193.217.206/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=uptime|cli=10.0.2.15/42276|srv=23.193.217.206/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=999.58 Hz
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/42276|srv=23.193.217.206/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/42276|srv=23.193.217.206/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/33858|srv=204.154.111.114/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/33858|srv=204.154.111.114/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=uptime|cli=10.0.2.15/33858|srv=204.154.111.114/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1007.09 Hz
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/33858|srv=204.154.111.114/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/33858|srv=204.154.111.114/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/33860|srv=204.154.111.114/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/33860|srv=204.154.111.114/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=uptime|cli=10.0.2.15/33860|srv=204.154.111.114/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/33862|srv=204.154.111.114/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/33862|srv=204.154.111.114/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/33860|srv=204.154.111.114/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/33860|srv=204.154.111.114/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/33862|srv=204.154.111.114/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/33862|srv=204.154.111.114/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/55914|srv=23.7.93.76/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/55914|srv=23.7.93.76/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=uptime|cli=10.0.2.15/55914|srv=23.7.93.76/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=991.67 Hz
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/53472|srv=34.232.186.49/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/53472|srv=34.232.186.49/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn|cli=10.0.2.15/52318|srv=23.40.29.12/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/52318|srv=23.40.29.12/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/53472|srv=34.232.186.49/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/53472|srv=34.232.186.49/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/52318|srv=23.40.29.12/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/52318|srv=23.40.29.12/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:14] mod=syn+ack|cli=10.0.2.15/55914|srv=23.7.93.76/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:14] mod=mtu|cli=10.0.2.15/55914|srv=23.7.93.76/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:15] mod=syn|cli=10.0.2.15/33870|srv=204.154.111.114/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:15] mod=mtu|cli=10.0.2.15/33870|srv=204.154.111.114/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:15] mod=uptime|cli=10.0.2.15/33870|srv=204.154.111.114/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:34:15] mod=syn+ack|cli=10.0.2.15/33870|srv=204.154.111.114/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:15] mod=mtu|cli=10.0.2.15/33870|srv=204.154.111.114/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:15] mod=syn|cli=10.0.2.15/34736|srv=18.232.194.228/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:15] mod=mtu|cli=10.0.2.15/34736|srv=18.232.194.228/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:15] mod=uptime|cli=10.0.2.15/34736|srv=18.232.194.228/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:34:15] mod=syn+ack|cli=10.0.2.15/34736|srv=18.232.194.228/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:15] mod=mtu|cli=10.0.2.15/34736|srv=18.232.194.228/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:17] mod=syn|cli=10.0.2.15/33874|srv=204.154.111.114/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:17] mod=mtu|cli=10.0.2.15/33874|srv=204.154.111.114/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:17] mod=uptime|cli=10.0.2.15/33874|srv=204.154.111.114/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:34:17] mod=syn+ack|cli=10.0.2.15/33874|srv=204.154.111.114/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:34:17] mod=mtu|cli=10.0.2.15/33874|srv=204.154.111.114/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:32] mod=syn|cli=10.0.2.15/52778|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:32] mod=mtu|cli=10.0.2.15/52778|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:32] mod=uptime|cli=10.0.2.15/52778|srv=92.242.140.21/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:34:32] mod=syn|cli=10.0.2.15/52784|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:34:32] mod=mtu|cli=10.0.2.15/52784|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:34:32] mod=uptime|cli=10.0.2.15/52784|srv=92.242.140.21/443|subj=cli|uptime=0 days 11 hrs 10 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:37:01] mod=syn|cli=10.0.2.15/41048|srv=172.217.11.10/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:37:01] mod=mtu|cli=10.0.2.15/41048|srv=172.217.11.10/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:37:01] mod=uptime|cli=10.0.2.15/41048|srv=172.217.11.10/443|subj=cli|uptime=0 days 11 hrs 13 min (modulo 49 days)|raw_freq=999.99 Hz
+[2020/07/20 17:37:02] mod=syn+ack|cli=10.0.2.15/41048|srv=172.217.11.10/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:37:02] mod=mtu|cli=10.0.2.15/41048|srv=172.217.11.10/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:37:55] mod=syn|cli=10.0.2.15/53424|srv=99.86.227.142/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:37:55] mod=mtu|cli=10.0.2.15/53424|srv=99.86.227.142/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:37:55] mod=uptime|cli=10.0.2.15/53424|srv=99.86.227.142/443|subj=cli|uptime=0 days 11 hrs 14 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:37:55] mod=syn+ack|cli=10.0.2.15/53424|srv=99.86.227.142/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:37:55] mod=mtu|cli=10.0.2.15/53424|srv=99.86.227.142/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:38:37] mod=syn|cli=10.0.2.15/49612|srv=172.217.6.227/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:38:37] mod=mtu|cli=10.0.2.15/49612|srv=172.217.6.227/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:38:37] mod=uptime|cli=10.0.2.15/49612|srv=172.217.6.227/443|subj=cli|uptime=0 days 11 hrs 14 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:38:37] mod=syn+ack|cli=10.0.2.15/49612|srv=172.217.6.227/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:38:37] mod=mtu|cli=10.0.2.15/49612|srv=172.217.6.227/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:42:55] mod=syn|cli=10.0.2.15/37400|srv=143.204.142.30/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:42:55] mod=mtu|cli=10.0.2.15/37400|srv=143.204.142.30/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:42:55] mod=uptime|cli=10.0.2.15/37400|srv=143.204.142.30/443|subj=cli|uptime=0 days 11 hrs 19 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:42:55] mod=syn+ack|cli=10.0.2.15/37400|srv=143.204.142.30/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:42:55] mod=mtu|cli=10.0.2.15/37400|srv=143.204.142.30/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:47:55] mod=syn|cli=10.0.2.15/36846|srv=99.86.227.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:47:55] mod=mtu|cli=10.0.2.15/36846|srv=99.86.227.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:47:55] mod=uptime|cli=10.0.2.15/36846|srv=99.86.227.21/443|subj=cli|uptime=0 days 11 hrs 24 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:47:55] mod=syn+ack|cli=10.0.2.15/36846|srv=99.86.227.21/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:47:55] mod=mtu|cli=10.0.2.15/36846|srv=99.86.227.21/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:48:15] mod=syn|cli=10.0.2.15/56194|srv=204.154.111.105/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:48:15] mod=mtu|cli=10.0.2.15/56194|srv=204.154.111.105/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:48:15] mod=uptime|cli=10.0.2.15/56194|srv=204.154.111.105/443|subj=cli|uptime=0 days 11 hrs 24 min (modulo 49 days)|raw_freq=1000.05 Hz
+[2020/07/20 17:48:15] mod=syn|cli=10.0.2.15/56196|srv=204.154.111.105/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:48:15] mod=mtu|cli=10.0.2.15/56196|srv=204.154.111.105/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:48:15] mod=syn+ack|cli=10.0.2.15/56194|srv=204.154.111.105/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:48:15] mod=mtu|cli=10.0.2.15/56194|srv=204.154.111.105/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:48:15] mod=syn+ack|cli=10.0.2.15/56196|srv=204.154.111.105/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:48:15] mod=mtu|cli=10.0.2.15/56196|srv=204.154.111.105/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:48:45] mod=syn|cli=10.0.2.15/57550|srv=142.250.64.110/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:48:45] mod=mtu|cli=10.0.2.15/57550|srv=142.250.64.110/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:48:45] mod=uptime|cli=10.0.2.15/57550|srv=142.250.64.110/443|subj=cli|uptime=0 days 11 hrs 24 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:48:45] mod=syn+ack|cli=10.0.2.15/57550|srv=142.250.64.110/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:48:45] mod=mtu|cli=10.0.2.15/57550|srv=142.250.64.110/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:49:05] mod=syn|cli=10.0.2.15/40088|srv=142.250.64.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:49:05] mod=mtu|cli=10.0.2.15/40088|srv=142.250.64.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:49:05] mod=uptime|cli=10.0.2.15/40088|srv=142.250.64.106/443|subj=cli|uptime=0 days 11 hrs 25 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:49:05] mod=syn+ack|cli=10.0.2.15/40088|srv=142.250.64.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:49:05] mod=mtu|cli=10.0.2.15/40088|srv=142.250.64.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:52:55] mod=syn|cli=10.0.2.15/53440|srv=99.86.227.142/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:52:55] mod=mtu|cli=10.0.2.15/53440|srv=99.86.227.142/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:52:55] mod=uptime|cli=10.0.2.15/53440|srv=99.86.227.142/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:52:55] mod=syn+ack|cli=10.0.2.15/53440|srv=99.86.227.142/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:52:55] mod=mtu|cli=10.0.2.15/53440|srv=99.86.227.142/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/41576|srv=151.101.65.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/41576|srv=151.101.65.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/41804|srv=172.217.10.42/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/41804|srv=172.217.10.42/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/41580|srv=151.101.65.69/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/41580|srv=151.101.65.69/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/41576|srv=151.101.65.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/41576|srv=151.101.65.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/41804|srv=172.217.10.42/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/41804|srv=172.217.10.42/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/58648|srv=142.250.64.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/58648|srv=142.250.64.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/41580|srv=151.101.65.69/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/41580|srv=151.101.65.69/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/58648|srv=142.250.64.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/58648|srv=142.250.64.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/49244|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/49244|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/49244|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/49244|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/58652|srv=142.250.64.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/58652|srv=142.250.64.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=uptime|cli=10.0.2.15/58652|srv=142.250.64.98/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/58652|srv=142.250.64.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/58652|srv=142.250.64.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/40148|srv=192.0.73.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/40148|srv=192.0.73.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=uptime|cli=10.0.2.15/40148|srv=192.0.73.2/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=967.74 Hz
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/40148|srv=192.0.73.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/40148|srv=192.0.73.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=syn|cli=10.0.2.15/49894|srv=104.67.0.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/49894|srv=104.67.0.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:03] mod=uptime|cli=10.0.2.15/49894|srv=104.67.0.163/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1002.25 Hz
+[2020/07/20 17:53:03] mod=syn+ack|cli=10.0.2.15/49894|srv=104.67.0.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:03] mod=mtu|cli=10.0.2.15/49894|srv=104.67.0.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:04] mod=syn|cli=10.0.2.15/36714|srv=142.250.64.78/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:04] mod=mtu|cli=10.0.2.15/36714|srv=142.250.64.78/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:04] mod=uptime|cli=10.0.2.15/36714|srv=142.250.64.78/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:04] mod=syn+ack|cli=10.0.2.15/36714|srv=142.250.64.78/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:04] mod=mtu|cli=10.0.2.15/36714|srv=142.250.64.78/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn|cli=10.0.2.15/35116|srv=192.184.68.173/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/35116|srv=192.184.68.173/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=uptime|cli=10.0.2.15/35116|srv=192.184.68.173/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=999.14 Hz
+[2020/07/20 17:53:05] mod=syn+ack|cli=10.0.2.15/35116|srv=192.184.68.173/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/35116|srv=192.184.68.173/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn|cli=10.0.2.15/54224|srv=172.217.165.130/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/54224|srv=172.217.165.130/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=uptime|cli=10.0.2.15/54224|srv=172.217.165.130/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:05] mod=syn+ack|cli=10.0.2.15/54224|srv=172.217.165.130/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/54224|srv=172.217.165.130/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn|cli=10.0.2.15/32876|srv=142.250.64.65/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/32876|srv=142.250.64.65/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=uptime|cli=10.0.2.15/32876|srv=142.250.64.65/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1020.41 Hz
+[2020/07/20 17:53:05] mod=syn+ack|cli=10.0.2.15/32876|srv=142.250.64.65/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/32876|srv=142.250.64.65/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn|cli=10.0.2.15/58666|srv=142.250.64.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/58666|srv=142.250.64.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=uptime|cli=10.0.2.15/58666|srv=142.250.64.98/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=996.78 Hz
+[2020/07/20 17:53:05] mod=syn+ack|cli=10.0.2.15/58666|srv=142.250.64.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/58666|srv=142.250.64.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn|cli=10.0.2.15/58954|srv=172.217.10.228/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/58954|srv=172.217.10.228/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=uptime|cli=10.0.2.15/58954|srv=172.217.10.228/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1007.41 Hz
+[2020/07/20 17:53:05] mod=syn|cli=10.0.2.15/45494|srv=74.6.138.192/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/45494|srv=74.6.138.192/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn+ack|cli=10.0.2.15/58954|srv=172.217.10.228/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/58954|srv=172.217.10.228/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:05] mod=syn+ack|cli=10.0.2.15/45494|srv=74.6.138.192/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:05] mod=mtu|cli=10.0.2.15/45494|srv=74.6.138.192/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/54150|srv=34.196.170.105/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/54150|srv=34.196.170.105/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=uptime|cli=10.0.2.15/54150|srv=34.196.170.105/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=992.25 Hz
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/54150|srv=34.196.170.105/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/54150|srv=34.196.170.105/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/59810|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/59810|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=uptime|cli=10.0.2.15/59810|srv=104.244.39.20/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1005.49 Hz
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/59812|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/59812|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/59814|srv=104.244.39.20/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/59814|srv=104.244.39.20/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/33604|srv=172.217.10.230/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/33604|srv=172.217.10.230/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=uptime|cli=10.0.2.15/33604|srv=172.217.10.230/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/33604|srv=172.217.10.230/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/33604|srv=172.217.10.230/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/59812|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/59812|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/59810|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/59810|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/59814|srv=104.244.39.20/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/59814|srv=104.244.39.20/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/55740|srv=172.217.11.34/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/55740|srv=172.217.11.34/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=uptime|cli=10.0.2.15/55740|srv=172.217.11.34/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/58772|srv=35.169.54.207/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/58772|srv=35.169.54.207/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/55740|srv=172.217.11.34/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/55740|srv=172.217.11.34/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/58772|srv=35.169.54.207/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/58772|srv=35.169.54.207/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/34674|srv=23.203.17.62/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/34674|srv=23.203.17.62/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=uptime|cli=10.0.2.15/34674|srv=23.203.17.62/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/53574|srv=54.165.246.4/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/53574|srv=54.165.246.4/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/34674|srv=23.203.17.62/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/34674|srv=23.203.17.62/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/53574|srv=54.165.246.4/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/53574|srv=54.165.246.4/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/34692|srv=172.217.12.134/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/34692|srv=172.217.12.134/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=uptime|cli=10.0.2.15/34692|srv=172.217.12.134/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=990.48 Hz
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/52888|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/52888|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn|cli=10.0.2.15/40498|srv=185.167.164.51/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/40498|srv=185.167.164.51/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/34692|srv=172.217.12.134/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/34692|srv=172.217.12.134/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:06] mod=syn+ack|cli=10.0.2.15/40498|srv=185.167.164.51/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:06] mod=mtu|cli=10.0.2.15/40498|srv=185.167.164.51/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:07] mod=syn|cli=10.0.2.15/54626|srv=23.195.100.159/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:07] mod=mtu|cli=10.0.2.15/54626|srv=23.195.100.159/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:07] mod=uptime|cli=10.0.2.15/54626|srv=23.195.100.159/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=983.33 Hz
+[2020/07/20 17:53:07] mod=syn+ack|cli=10.0.2.15/54626|srv=23.195.100.159/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:07] mod=mtu|cli=10.0.2.15/54626|srv=23.195.100.159/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:07] mod=syn|cli=10.0.2.15/52894|srv=92.242.140.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:07] mod=mtu|cli=10.0.2.15/52894|srv=92.242.140.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:07] mod=uptime|cli=10.0.2.15/52894|srv=92.242.140.21/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1006.13 Hz
+[2020/07/20 17:53:07] mod=syn|cli=10.0.2.15/56460|srv=216.58.207.131/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:53:07] mod=mtu|cli=10.0.2.15/56460|srv=216.58.207.131/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:53:07] mod=uptime|cli=10.0.2.15/56460|srv=216.58.207.131/443|subj=cli|uptime=0 days 11 hrs 29 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:53:07] mod=syn+ack|cli=10.0.2.15/56460|srv=216.58.207.131/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:53:07] mod=mtu|cli=10.0.2.15/56460|srv=216.58.207.131/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:55:48] mod=syn|cli=10.0.2.15/37752|srv=172.217.9.234/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:55:48] mod=mtu|cli=10.0.2.15/37752|srv=172.217.9.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:55:48] mod=syn+ack|cli=10.0.2.15/37752|srv=172.217.9.234/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:55:48] mod=mtu|cli=10.0.2.15/37752|srv=172.217.9.234/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:05] mod=syn|cli=10.0.2.15/37754|srv=172.217.9.234/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:05] mod=mtu|cli=10.0.2.15/37754|srv=172.217.9.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:05] mod=syn|cli=10.0.2.15/49310|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:05] mod=mtu|cli=10.0.2.15/49310|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:05] mod=syn+ack|cli=10.0.2.15/37754|srv=172.217.9.234/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:05] mod=mtu|cli=10.0.2.15/37754|srv=172.217.9.234/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:05] mod=syn+ack|cli=10.0.2.15/49310|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:05] mod=mtu|cli=10.0.2.15/49310|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:07] mod=syn|cli=10.0.2.15/32930|srv=142.250.64.65/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:07] mod=mtu|cli=10.0.2.15/32930|srv=142.250.64.65/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:07] mod=uptime|cli=10.0.2.15/32930|srv=142.250.64.65/443|subj=cli|uptime=0 days 11 hrs 33 min (modulo 49 days)|raw_freq=999.46 Hz
+[2020/07/20 17:57:07] mod=syn+ack|cli=10.0.2.15/32930|srv=142.250.64.65/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:07] mod=mtu|cli=10.0.2.15/32930|srv=142.250.64.65/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:07] mod=syn|cli=10.0.2.15/58720|srv=142.250.64.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:07] mod=mtu|cli=10.0.2.15/58720|srv=142.250.64.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:07] mod=uptime|cli=10.0.2.15/58720|srv=142.250.64.98/443|subj=cli|uptime=0 days 11 hrs 33 min (modulo 49 days)|raw_freq=1001.70 Hz
+[2020/07/20 17:57:07] mod=syn+ack|cli=10.0.2.15/58720|srv=142.250.64.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:07] mod=mtu|cli=10.0.2.15/58720|srv=142.250.64.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:28] mod=syn|cli=10.0.2.15/37762|srv=172.217.9.234/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:28] mod=mtu|cli=10.0.2.15/37762|srv=172.217.9.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:28] mod=uptime|cli=10.0.2.15/37762|srv=172.217.9.234/443|subj=cli|uptime=0 days 11 hrs 33 min (modulo 49 days)|raw_freq=999.95 Hz
+[2020/07/20 17:57:28] mod=syn|cli=10.0.2.15/49318|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:28] mod=mtu|cli=10.0.2.15/49318|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:28] mod=syn+ack|cli=10.0.2.15/37762|srv=172.217.9.234/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:28] mod=mtu|cli=10.0.2.15/37762|srv=172.217.9.234/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:28] mod=syn+ack|cli=10.0.2.15/49318|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:28] mod=mtu|cli=10.0.2.15/49318|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:28] mod=syn|cli=10.0.2.15/44212|srv=142.250.64.97/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:28] mod=mtu|cli=10.0.2.15/44212|srv=142.250.64.97/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:28] mod=syn+ack|cli=10.0.2.15/44212|srv=142.250.64.97/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:28] mod=mtu|cli=10.0.2.15/44212|srv=142.250.64.97/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:55] mod=syn|cli=10.0.2.15/36944|srv=99.86.227.21/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:57:55] mod=mtu|cli=10.0.2.15/36944|srv=99.86.227.21/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:57:55] mod=uptime|cli=10.0.2.15/36944|srv=99.86.227.21/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:57:55] mod=syn+ack|cli=10.0.2.15/36944|srv=99.86.227.21/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:57:55] mod=mtu|cli=10.0.2.15/36944|srv=99.86.227.21/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:05] mod=syn|cli=10.0.2.15/37770|srv=172.217.9.234/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:05] mod=mtu|cli=10.0.2.15/37770|srv=172.217.9.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:05] mod=uptime|cli=10.0.2.15/37770|srv=172.217.9.234/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:05] mod=syn+ack|cli=10.0.2.15/37770|srv=172.217.9.234/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:05] mod=mtu|cli=10.0.2.15/37770|srv=172.217.9.234/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:05] mod=syn|cli=10.0.2.15/49326|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:05] mod=mtu|cli=10.0.2.15/49326|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:05] mod=syn+ack|cli=10.0.2.15/49326|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:05] mod=mtu|cli=10.0.2.15/49326|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:05] mod=syn|cli=10.0.2.15/40228|srv=192.0.73.2/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:05] mod=mtu|cli=10.0.2.15/40228|srv=192.0.73.2/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:05] mod=uptime|cli=10.0.2.15/40228|srv=192.0.73.2/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:05] mod=syn+ack|cli=10.0.2.15/40228|srv=192.0.73.2/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:05] mod=mtu|cli=10.0.2.15/40228|srv=192.0.73.2/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:06] mod=syn|cli=10.0.2.15/42808|srv=172.217.11.33/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:06] mod=mtu|cli=10.0.2.15/42808|srv=172.217.11.33/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:06] mod=uptime|cli=10.0.2.15/42808|srv=172.217.11.33/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:06] mod=syn+ack|cli=10.0.2.15/42808|srv=172.217.11.33/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:06] mod=mtu|cli=10.0.2.15/42808|srv=172.217.11.33/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:11] mod=syn|cli=10.0.2.15/49190|srv=172.217.11.36/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:11] mod=mtu|cli=10.0.2.15/49190|srv=172.217.11.36/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:11] mod=uptime|cli=10.0.2.15/49190|srv=172.217.11.36/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:11] mod=syn+ack|cli=10.0.2.15/49190|srv=172.217.11.36/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:11] mod=mtu|cli=10.0.2.15/49190|srv=172.217.11.36/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:11] mod=syn|cli=10.0.2.15/49192|srv=172.217.11.36/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:11] mod=mtu|cli=10.0.2.15/49192|srv=172.217.11.36/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:11] mod=uptime|cli=10.0.2.15/49192|srv=172.217.11.36/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1003.36 Hz
+[2020/07/20 17:58:12] mod=syn+ack|cli=10.0.2.15/49192|srv=172.217.11.36/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:12] mod=mtu|cli=10.0.2.15/49192|srv=172.217.11.36/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:12] mod=syn|cli=10.0.2.15/49336|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:12] mod=mtu|cli=10.0.2.15/49336|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:12] mod=syn+ack|cli=10.0.2.15/49336|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:12] mod=mtu|cli=10.0.2.15/49336|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:16] mod=syn|cli=10.0.2.15/49338|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:16] mod=mtu|cli=10.0.2.15/49338|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:16] mod=uptime|cli=10.0.2.15/49338|srv=172.217.12.163/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:16] mod=syn+ack|cli=10.0.2.15/49338|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:16] mod=mtu|cli=10.0.2.15/49338|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:16] mod=syn|cli=10.0.2.15/59132|srv=172.217.3.99/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:16] mod=mtu|cli=10.0.2.15/59132|srv=172.217.3.99/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:16] mod=syn+ack|cli=10.0.2.15/59132|srv=172.217.3.99/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:16] mod=mtu|cli=10.0.2.15/59132|srv=172.217.3.99/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:16] mod=syn|cli=10.0.2.15/37060|srv=172.217.11.40/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:16] mod=mtu|cli=10.0.2.15/37060|srv=172.217.11.40/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:16] mod=uptime|cli=10.0.2.15/37060|srv=172.217.11.40/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:16] mod=syn+ack|cli=10.0.2.15/37060|srv=172.217.11.40/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:16] mod=mtu|cli=10.0.2.15/37060|srv=172.217.11.40/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:17] mod=syn|cli=10.0.2.15/40238|srv=172.217.165.129/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:17] mod=mtu|cli=10.0.2.15/40238|srv=172.217.165.129/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:17] mod=uptime|cli=10.0.2.15/40238|srv=172.217.165.129/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:17] mod=syn+ack|cli=10.0.2.15/40238|srv=172.217.165.129/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:17] mod=mtu|cli=10.0.2.15/40238|srv=172.217.165.129/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:17] mod=syn|cli=10.0.2.15/50160|srv=172.253.122.156/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 17:58:17] mod=mtu|cli=10.0.2.15/50160|srv=172.253.122.156/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 17:58:17] mod=uptime|cli=10.0.2.15/50160|srv=172.253.122.156/443|subj=cli|uptime=0 days 11 hrs 34 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 17:58:17] mod=syn+ack|cli=10.0.2.15/50160|srv=172.253.122.156/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 17:58:17] mod=mtu|cli=10.0.2.15/50160|srv=172.253.122.156/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:00:17] mod=syn|cli=10.0.2.15/40204|srv=142.250.64.106/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:00:17] mod=mtu|cli=10.0.2.15/40204|srv=142.250.64.106/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:00:17] mod=uptime|cli=10.0.2.15/40204|srv=142.250.64.106/443|subj=cli|uptime=0 days 11 hrs 36 min (modulo 49 days)|raw_freq=999.99 Hz
+[2020/07/20 18:00:17] mod=syn+ack|cli=10.0.2.15/40204|srv=142.250.64.106/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:00:17] mod=mtu|cli=10.0.2.15/40204|srv=142.250.64.106/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:00:51] mod=syn|cli=10.0.2.15/49350|srv=172.217.12.163/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:00:51] mod=mtu|cli=10.0.2.15/49350|srv=172.217.12.163/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:00:51] mod=syn|cli=10.0.2.15/49116|srv=172.217.12.195/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:00:51] mod=mtu|cli=10.0.2.15/49116|srv=172.217.12.195/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:00:51] mod=syn+ack|cli=10.0.2.15/49350|srv=172.217.12.163/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:00:51] mod=mtu|cli=10.0.2.15/49350|srv=172.217.12.163/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:00:51] mod=syn+ack|cli=10.0.2.15/49116|srv=172.217.12.195/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:00:51] mod=mtu|cli=10.0.2.15/49116|srv=172.217.12.195/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:01] mod=syn|cli=10.0.2.15/47384|srv=172.217.12.138/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:01] mod=mtu|cli=10.0.2.15/47384|srv=172.217.12.138/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:01] mod=uptime|cli=10.0.2.15/47384|srv=172.217.12.138/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:01] mod=syn+ack|cli=10.0.2.15/47384|srv=172.217.12.138/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:01] mod=mtu|cli=10.0.2.15/47384|srv=172.217.12.138/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:24] mod=syn|cli=10.0.2.15/47386|srv=172.217.12.138/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:24] mod=mtu|cli=10.0.2.15/47386|srv=172.217.12.138/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:24] mod=uptime|cli=10.0.2.15/47386|srv=172.217.12.138/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=999.96 Hz
+[2020/07/20 18:01:24] mod=syn|cli=10.0.2.15/49123|srv=172.217.12.195/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:24] mod=mtu|cli=10.0.2.15/49123|srv=172.217.12.195/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:24] mod=syn+ack|cli=10.0.2.15/47386|srv=172.217.12.138/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:24] mod=mtu|cli=10.0.2.15/47386|srv=172.217.12.138/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:24] mod=syn+ack|cli=10.0.2.15/49123|srv=172.217.12.195/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:24] mod=mtu|cli=10.0.2.15/49123|srv=172.217.12.195/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/41812|srv=172.217.3.97/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/41812|srv=172.217.3.97/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=uptime|cli=10.0.2.15/41812|srv=172.217.3.97/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1001.03 Hz
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/41812|srv=172.217.3.97/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/41812|srv=172.217.3.97/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/42442|srv=23.193.217.206/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/42442|srv=23.193.217.206/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=uptime|cli=10.0.2.15/42442|srv=23.193.217.206/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1002.62 Hz
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/42442|srv=23.193.217.206/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/42442|srv=23.193.217.206/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/57008|srv=204.154.111.127/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/57008|srv=204.154.111.127/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=uptime|cli=10.0.2.15/57008|srv=204.154.111.127/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/57008|srv=204.154.111.127/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/57008|srv=204.154.111.127/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/38410|srv=172.217.3.102/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/38410|srv=172.217.3.102/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=uptime|cli=10.0.2.15/38410|srv=172.217.3.102/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/57012|srv=204.154.111.127/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/57012|srv=204.154.111.127/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/57014|srv=204.154.111.127/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/57014|srv=204.154.111.127/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/38410|srv=172.217.3.102/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/38410|srv=172.217.3.102/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/57012|srv=204.154.111.127/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/57012|srv=204.154.111.127/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/57014|srv=204.154.111.127/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/57014|srv=204.154.111.127/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/49880|srv=52.22.177.221/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/49880|srv=52.22.177.221/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=uptime|cli=10.0.2.15/49880|srv=52.22.177.221/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/49880|srv=52.22.177.221/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/49880|srv=52.22.177.221/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/52484|srv=23.40.29.12/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/52484|srv=23.40.29.12/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=uptime|cli=10.0.2.15/52484|srv=23.40.29.12/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/58906|srv=172.217.165.134/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/58906|srv=172.217.165.134/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn|cli=10.0.2.15/33910|srv=172.217.10.98/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/33910|srv=172.217.10.98/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/52484|srv=23.40.29.12/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/52484|srv=23.40.29.12/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/58906|srv=172.217.165.134/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/58906|srv=172.217.165.134/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:26] mod=syn+ack|cli=10.0.2.15/33910|srv=172.217.10.98/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:26] mod=mtu|cli=10.0.2.15/33910|srv=172.217.10.98/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:27] mod=syn|cli=10.0.2.15/56090|srv=23.7.93.76/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:27] mod=mtu|cli=10.0.2.15/56090|srv=23.7.93.76/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:27] mod=uptime|cli=10.0.2.15/56090|srv=23.7.93.76/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:27] mod=syn+ack|cli=10.0.2.15/56090|srv=23.7.93.76/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:27] mod=mtu|cli=10.0.2.15/56090|srv=23.7.93.76/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:27] mod=syn|cli=10.0.2.15/57026|srv=204.154.111.127/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:27] mod=mtu|cli=10.0.2.15/57026|srv=204.154.111.127/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:27] mod=uptime|cli=10.0.2.15/57026|srv=204.154.111.127/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:27] mod=syn+ack|cli=10.0.2.15/57026|srv=204.154.111.127/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:27] mod=mtu|cli=10.0.2.15/57026|srv=204.154.111.127/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:27] mod=syn|cli=10.0.2.15/51990|srv=52.86.0.53/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:27] mod=mtu|cli=10.0.2.15/51990|srv=52.86.0.53/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:27] mod=uptime|cli=10.0.2.15/51990|srv=52.86.0.53/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:27] mod=syn+ack|cli=10.0.2.15/51990|srv=52.86.0.53/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:27] mod=mtu|cli=10.0.2.15/51990|srv=52.86.0.53/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:29] mod=syn|cli=10.0.2.15/57030|srv=204.154.111.127/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:01:29] mod=mtu|cli=10.0.2.15/57030|srv=204.154.111.127/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:01:29] mod=uptime|cli=10.0.2.15/57030|srv=204.154.111.127/443|subj=cli|uptime=0 days 11 hrs 37 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:01:29] mod=syn+ack|cli=10.0.2.15/57030|srv=204.154.111.127/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:01:29] mod=mtu|cli=10.0.2.15/57030|srv=204.154.111.127/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:02:55] mod=syn|cli=10.0.2.15/57200|srv=99.86.227.35/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:02:55] mod=mtu|cli=10.0.2.15/57200|srv=99.86.227.35/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:02:55] mod=uptime|cli=10.0.2.15/57200|srv=99.86.227.35/443|subj=cli|uptime=0 days 11 hrs 39 min (modulo 49 days)|raw_freq=999.99 Hz
+[2020/07/20 18:02:55] mod=syn+ack|cli=10.0.2.15/57200|srv=99.86.227.35/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:02:55] mod=mtu|cli=10.0.2.15/57200|srv=99.86.227.35/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:05:00] mod=syn|cli=10.0.2.15/39582|srv=104.16.80.48/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:05:00] mod=mtu|cli=10.0.2.15/39582|srv=104.16.80.48/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:05:00] mod=uptime|cli=10.0.2.15/39582|srv=104.16.80.48/443|subj=cli|uptime=0 days 11 hrs 41 min (modulo 49 days)|raw_freq=1000.01 Hz
+[2020/07/20 18:05:01] mod=syn+ack|cli=10.0.2.15/39582|srv=104.16.80.48/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:05:01] mod=mtu|cli=10.0.2.15/39582|srv=104.16.80.48/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:06:54] mod=syn|cli=10.0.2.15/41958|srv=172.217.10.42/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:06:54] mod=mtu|cli=10.0.2.15/41958|srv=172.217.10.42/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:06:54] mod=uptime|cli=10.0.2.15/41958|srv=172.217.10.42/443|subj=cli|uptime=0 days 11 hrs 43 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:06:54] mod=syn+ack|cli=10.0.2.15/41958|srv=172.217.10.42/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:06:54] mod=mtu|cli=10.0.2.15/41958|srv=172.217.10.42/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:06:58] mod=syn|cli=10.0.2.15/40122|srv=172.217.10.238/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:06:58] mod=mtu|cli=10.0.2.15/40122|srv=172.217.10.238/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:06:58] mod=uptime|cli=10.0.2.15/40122|srv=172.217.10.238/443|subj=cli|uptime=0 days 11 hrs 43 min (modulo 49 days)|raw_freq=999.75 Hz
+[2020/07/20 18:06:58] mod=syn+ack|cli=10.0.2.15/40122|srv=172.217.10.238/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:06:58] mod=mtu|cli=10.0.2.15/40122|srv=172.217.10.238/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:07:55] mod=syn|cli=10.0.2.15/57314|srv=99.86.227.217/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:07:55] mod=mtu|cli=10.0.2.15/57314|srv=99.86.227.217/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:07:55] mod=uptime|cli=10.0.2.15/57314|srv=99.86.227.217/443|subj=cli|uptime=0 days 11 hrs 44 min (modulo 49 days)|raw_freq=1000.02 Hz
+[2020/07/20 18:07:55] mod=syn+ack|cli=10.0.2.15/57314|srv=99.86.227.217/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:07:55] mod=mtu|cli=10.0.2.15/57314|srv=99.86.227.217/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:08:37] mod=syn|cli=10.0.2.15/59632|srv=142.250.64.67/443|subj=cli|os=Linux 3.11 and newer|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0
+[2020/07/20 18:08:37] mod=mtu|cli=10.0.2.15/59632|srv=142.250.64.67/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2020/07/20 18:08:37] mod=uptime|cli=10.0.2.15/59632|srv=142.250.64.67/443|subj=cli|uptime=0 days 11 hrs 44 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2020/07/20 18:08:37] mod=syn+ack|cli=10.0.2.15/59632|srv=142.250.64.67/443|subj=srv|os=Windows XP|dist=0|params=fuzzy|raw_sig=4:64+0:0:1460:65535,0:mss::0
+[2020/07/20 18:08:37] mod=mtu|cli=10.0.2.15/59632|srv=142.250.64.67/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
