@@ -221,7 +221,16 @@ class fp_mtu;
 
 class processor {
 public:
-    processor(const char* log_file);
+    processor(const char *read_file,
+    		const char* log_file,
+    		u32 max_conn,
+			u32 max_hosts,
+			u32 conn_max_age,
+			u32 host_idle_limit,
+			u32 hash_seed,
+			s32 link_type,
+			u8 daemon_mode);
+
     ~processor();
     void set_fp_handlers(fp_http *a_fp_http, fp_tcp *a_fp_tcp, fp_mtu *a_fp_mtu);
 
@@ -246,6 +255,7 @@ public:
 	struct host_data* lookup_host(u8* addr, u8 ip_ver);
     void destroy_all_hosts(void);
     FILE *get_log_stream();
+    u32 get_hash_seed();
 
 private:
     void find_offset(const u8* data, s32 total_len);
@@ -262,7 +272,7 @@ private:
     void expire_cache(void);
     void flow_dispatch(struct packet_data* pk);
 
-private:
+ private:
 	u64 packet_cnt;           /* Total number of packets processed  */
 	s8 link_off;              /* Link-specific IP header offset     */
 	u8 bad_packets;           /* Seen non-IP packets?               */
@@ -282,9 +292,17 @@ private:
 
 	u32 host_cnt, flow_cnt;          /* Counters for bookkeeping purposes  */
 	u8 obs_fields;                   /* No of pending observation fields   */
-	const char* log_file;
+
     FILE* lf;                        /* Log file stream                    */
 
+    // confiurable parameters
+    const char* log_file;
+    const char* read_file;
+    u32 max_conn, max_hosts, conn_max_age, host_idle_limit, hash_seed;
+    s32 link_type;
+    u8  daemon_mode;
+
+    // progress tracking records
     the_record_t the_record;
     the_record_list_t the_record_list;
     the_key_record_map_t key_record_map;

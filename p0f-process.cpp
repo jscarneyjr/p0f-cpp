@@ -41,8 +41,26 @@
 #include "p0f-types.h"
 #include "p0f-utils.h"
 
-processor::processor(const char* _log_file){
+processor::processor(const char *_read_file,
+		const char* _log_file,
+		u32 _max_conn,
+		u32 _max_hosts,
+		u32 _conn_max_age,
+		u32 _host_idle_limit,
+		u32 _hash_seed,
+		s32 _link_type,
+		u8 _daemon_mode){
     my_processor = this;
+
+    max_conn = _max_conn;
+    max_hosts = _max_hosts;
+    conn_max_age = _conn_max_age;
+    host_idle_limit = _host_idle_limit;
+    hash_seed = _hash_seed;
+    link_type = _link_type;
+    daemon_mode = _daemon_mode;
+
+    read_file = _read_file;
 
     log_file = _log_file;
 	if(log_file)open_log();
@@ -75,6 +93,7 @@ processor::~processor(){
 }
 
 FILE *processor::get_log_stream(){ return lf; }
+u32 processor::get_hash_seed() { return hash_seed; }
 
 void processor::open_log(void) {
 

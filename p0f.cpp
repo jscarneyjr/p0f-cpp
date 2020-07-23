@@ -82,7 +82,7 @@ static u8 *use_iface,                   /* Interface to listen on             */
           *api_sock,                    /* API socket file name               */
           *fp_file;                     /* Location of p0f.fp                 */
 
-u8* read_file;                          /* File to read pcap data from        */
+const char* read_file;                          /* File to read pcap data from        */
 
 static s32
   api_max_conn    = API_MAX_CONN;       /* Maximum number of API connections  */
@@ -1029,7 +1029,7 @@ int main(int argc, char** argv) {
       if (read_file)
         FATAL("Multiple -r options not supported.");
 
-      read_file = (u8*)optarg;
+      read_file = (const char *)optarg;
 
       break;
 
@@ -1117,8 +1117,20 @@ int main(int argc, char** argv) {
 
   get_hash_seed();
 
+  // prepare capture
+  prepare_pcap();
+  prepare_bpf();
+
   // initialize a processor with log file
-  PROCESSOR = new processor(log_file);
+  PROCESSOR = new processor(read_file,
+		    log_file,
+			max_conn,
+			max_hosts,
+			conn_max_age,
+			host_idle_limit,
+			hash_seed,
+			link_type,
+			daemon_mode);
 
   // declare a fp configurator
   my_fp_configurator = new fp_configurator(PROCESSOR);
@@ -1137,9 +1149,6 @@ int main(int argc, char** argv) {
   // read the fingerprint configuration file
   my_fp_configurator->read_config(fp_file ? fp_file : (u8*)FP_FILE);
 
-  // prepare capture
-  prepare_pcap();
-  prepare_bpf();
 
   if (api_sock) open_api();
   

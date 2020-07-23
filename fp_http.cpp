@@ -61,7 +61,7 @@ fp_http::fp_http(processor *a_processor, fp_configurator *a_fp_configurator){
 }
 
 u64 fp_http::bloom4_64(u32 val) {
-  u32 hash = hash32(&val, 4, hash_seed);
+  u32 hash = hash32(&val, 4, my_processor->get_hash_seed());
   u64 ret;
   ret = (1LL << (hash & 63));
   ret ^= (1LL << ((hash >> 8) & 63));
@@ -75,7 +75,7 @@ u64 fp_http::bloom4_64(u32 val) {
 
 s32 fp_http::lookup_hdr(u8* name, u32 len, u8 create) {
 
-  u32  bucket = hash32(name, len, hash_seed) % SIG_BUCKETS;
+  u32  bucket = hash32(name, len, my_processor->get_hash_seed()) % SIG_BUCKETS;
 
   u32* p = hdr_by_hash[bucket];
   u32  i = hbh_cnt[bucket];

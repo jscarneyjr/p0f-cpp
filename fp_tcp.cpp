@@ -553,7 +553,7 @@ void fp_tcp::tcp_register_sig(u8 to_srv, u8 generic, s32 sig_class, u32 sig_name
 
   val++;
 
-  opt_hash = hash32(opt_layout, opt_cnt, hash_seed);
+  opt_hash = hash32(opt_layout, opt_cnt, my_processor->get_hash_seed());
 
   /* Quirks */
 
@@ -742,7 +742,7 @@ void fp_tcp::tcp_register_sig(u8 to_srv, u8 generic, s32 sig_class, u32 sig_name
 
  void fp_tcp::packet_to_sig(struct packet_data* pk, struct tcp_sig* ts) {
 
-  ts->opt_hash = hash32(pk->opt_layout, pk->opt_cnt, hash_seed);
+  ts->opt_hash = hash32(pk->opt_layout, pk->opt_cnt, my_processor->get_hash_seed());
 
   ts->quirks      = pk->quirks;
   ts->opt_eol_pad = pk->opt_eol_pad;
