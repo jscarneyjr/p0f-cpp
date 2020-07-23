@@ -11,6 +11,10 @@
 #ifndef _HAVE_PROCESS_H
 #define _HAVE_PROCESS_H
 
+#include <string>
+#include <map>
+#include <list>
+
 #include <pcap.h>
 
 #include "fp_tcp.h"
@@ -199,13 +203,25 @@ struct packet_flow {
 
 };
 
+#define LOGF(_x...) (my_processor && my_processor->get_log_stream() ? fprintf(my_processor->get_log_stream(), _x) : printf(_x))
+
+typedef std::map<std::string,std::string> the_record_t;
+typedef std::list<the_record_t> the_record_list_t;
+typedef std::map<std::string,the_record_t> the_key_record_map_t;
+
+#define OBSERVF(_key, _fmt...) do { \
+    u8* _val; \
+    _val = (u8 *)alloc_printf(_fmt); \
+    my_processor->add_observation_field(_key, _val); \
+    ck_free(_val); \
+  } while (0)
 class fp_http;
 class fp_tcp;
 class fp_mtu;
 
 class processor {
 public:
-    processor();
+    processor(const char* log_file);
     ~processor();
     void set_fp_handlers(fp_http *a_fp_http, fp_tcp *a_fp_tcp, fp_mtu *a_fp_mtu);
 
@@ -215,6 +231,12 @@ public:
 	// workhorse for dealing with packets using local object storage
 	void parse_packet(const pcap_pkthdr *hdr, const u_char *bytes);
 
+	void start_observation(const char* keyword, u8 field_cnt, u8 to_srv,
+	                       struct packet_flow* pf);
+
+	void add_observation_field(const char* key, u8* value);
+	void open_log(void);
+
 	u64 get_unix_time_ms(void);
 	u32 get_unix_time(void);
 	u64 get_packet_count();
@@ -223,6 +245,7 @@ public:
 	void verify_tool_class(u8 to_srv, struct packet_flow* f, u32* sys, u32 sys_cnt);
 	struct host_data* lookup_host(u8* addr, u8 ip_ver);
     void destroy_all_hosts(void);
+    FILE *get_log_stream();
 
 private:
     void find_offset(const u8* data, s32 total_len);
@@ -258,7 +281,16 @@ private:
 	struct packet_flow  *flow_b[FLOW_BUCKETS];
 
 	u32 host_cnt, flow_cnt;          /* Counters for bookkeeping purposes  */
+	u8 obs_fields;                   /* No of pending observation fields   */
+	const char* log_file;
+    FILE* lf;                        /* Log file stream                    */
+
+    the_record_t the_record;
+    the_record_list_t the_record_list;
+    the_key_record_map_t key_record_map;
+
 private:
+    processor *my_processor;
 	fp_http *my_fp_http;
 	fp_tcp *my_fp_tcp;
 	fp_mtu *my_fp_mtu;

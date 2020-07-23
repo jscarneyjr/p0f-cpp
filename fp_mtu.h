@@ -29,13 +29,15 @@ struct packet_flow;
 
 class fp_mtu {
 public:
-	fp_mtu();
+	fp_mtu(processor *a_processor);
 	void mtu_register_sig(u8* name, u8* val, u32 line_no);
 
 	void fingerprint_mtu(u8 to_srv, struct packet_data* pk, struct packet_flow* f);
 
 	struct mtu_sig_record* sigs[SIG_BUCKETS];
 	u32 sig_cnt[SIG_BUCKETS];
+private:
+	processor* my_processor;
 
 };
 #endif /* _HAVE_FP_MTU_H */

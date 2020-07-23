@@ -18,19 +18,6 @@ extern s32 link_type;
 extern u32 max_conn, max_hosts, conn_max_age, host_idle_limit, hash_seed;
 extern u8* read_file;
 
-
-void start_observation(const char* keyword, u8 field_cnt, u8 to_srv,
-                       struct packet_flow* pf);
-
-void add_observation_field(const char* key, u8* value);
-
-#define OBSERVF(_key, _fmt...) do { \
-    u8* _val; \
-    _val = (u8 *)alloc_printf(_fmt); \
-    add_observation_field(_key, _val); \
-    ck_free(_val); \
-  } while (0)
-
 #include "p0f-api.h"
 
 struct api_client {

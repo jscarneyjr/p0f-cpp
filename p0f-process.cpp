@@ -16,6 +16,8 @@
 #include <pcap.h>
 #include <time.h>
 #include <ctype.h>
+#include <errno.h>
+#include <sys/file.h>
 
 #include <sys/fcntl.h>
 #include <netinet/in.h>
@@ -39,7 +41,12 @@
 #include "p0f-types.h"
 #include "p0f-utils.h"
 
-processor::processor(){
+processor::processor(const char* _log_file){
+    my_processor = this;
+
+    log_file = _log_file;
+	if(log_file)open_log();
+
 	packet_cnt = 0;
 	link_off = -1;
 	bad_packets=0;
@@ -64,6 +71,141 @@ processor::processor(){
 }
 
 processor::~processor(){
+
+}
+
+FILE *processor::get_log_stream(){ return lf; }
+
+void processor::open_log(void) {
+
+  struct stat st;
+  s32 log_fd;
+
+  log_fd = open((char*)log_file, O_WRONLY | O_APPEND | O_NOFOLLOW | O_LARGEFILE);
+
+  if (log_fd >= 0) {
+
+    if (fstat(log_fd, &st)) PFATAL("fstat() on '%s' failed.", log_file);
+
+    if (!S_ISREG(st.st_mode)) FATAL("'%s' is not a regular file.", log_file);
+
+  } else {
+
+    if (errno != ENOENT) PFATAL("Cannot open '%s'.", log_file);
+
+    log_fd = open((char*)log_file, O_WRONLY | O_CREAT | O_EXCL | O_NOFOLLOW,
+                  LOG_MODE);
+
+    if (log_fd < 0) PFATAL("Cannot open '%s'.", log_file);
+
+  }
+
+  if (flock(log_fd, LOCK_EX | LOCK_NB))
+    FATAL("'%s' is being used by another process.", log_file);
+
+  lf = fdopen(log_fd, "a");
+
+  if (!lf) FATAL("fdopen() on '%s' failed.", log_file);
+
+  SAYF("[+] Log file '%s' opened for writing.\n", log_file);
+
+}
+
+void processor::start_observation(const char* keyword, u8 field_cnt, u8 to_srv,
+                       struct packet_flow* f) {
+
+	the_record.clear();
+	the_record.insert(std::pair<std::string,std::string>(std::string("keyword"),std::string(keyword)));
+	the_record.insert(std::pair<std::string,std::string>(std::string("client_addr"),
+			std::string((char *)utils::addr_to_str(f->client->addr, f->client->ip_ver))));
+	the_record.insert(std::pair<std::string,std::string>(std::string("client_port"),
+			std::to_string(f->cli_port)));
+	the_record.insert(std::pair<std::string,std::string>(std::string("server_addr"),
+			std::string((char *)utils::addr_to_str(f->server->addr, f->server->ip_ver))));
+	the_record.insert(std::pair<std::string,std::string>(std::string("server_port"),
+			std::to_string(f->srv_port)));
+
+  if (obs_fields) FATAL("Premature end of observation.");
+
+  if (!daemon_mode) {
+
+    SAYF(".-[ %s/%u -> ", utils::addr_to_str(f->client->addr, f->client->ip_ver),
+         f->cli_port);
+    SAYF("%s/%u (%s) ]-\n|\n", utils::addr_to_str(f->server->addr, f->client->ip_ver),
+         f->srv_port, keyword);
+
+    SAYF("| %-8s = %s/%u\n", to_srv ? "client" : "server",
+         utils::addr_to_str(to_srv ? f->client->addr :
+         f->server->addr, f->client->ip_ver),
+         to_srv ? f->cli_port : f->srv_port);
+
+  }
+
+  if (log_file) {
+
+    u8 tmp[64];
+
+    time_t ut = get_unix_time();
+    struct tm* lt = localtime(&ut);
+
+    strftime((char*)tmp, 64, "%Y/%m/%d %H:%M:%S", lt);
+
+    LOGF("[%s] mod=%s|cli=%s/%u|",tmp, keyword, utils::addr_to_str(f->client->addr,
+         f->client->ip_ver), f->cli_port);
+
+    LOGF("srv=%s/%u|subj=%s", utils::addr_to_str(f->server->addr, f->server->ip_ver),
+         f->srv_port, to_srv ? "cli" : "srv");
+
+  }
+
+  obs_fields = field_cnt;
+
+}
+
+
+/* Add log item. */
+
+void processor::add_observation_field(const char* key, u8* value) {
+
+  if (!obs_fields) FATAL("Unexpected observation field ('%s').", key);
+
+  if (!daemon_mode)
+    SAYF("| %-8s = %s\n", key, value ? value : (u8*)"???");
+
+  if (log_file) LOGF("|%s=%s", key, value ? value : (u8*)"???");
+
+  the_record.insert(std::pair<std::string, std::string>
+               (std::string(key),std::string((char *)value)));
+
+  obs_fields--;
+
+  if (!obs_fields) {
+
+    if (!daemon_mode) SAYF("|\n`----\n\n");
+
+    if (log_file) LOGF("\n");
+
+    LOGF("current record of size:%u contains:\n", the_record.size());
+    for(auto r : the_record){
+    	LOGF("key=%s value=%s\n",r.first.c_str(),r.second.c_str());
+    }
+    the_record_list.push_back(the_record);
+    LOGF("the list of all records now has size %u\n", the_record_list.size());
+    the_record_t::iterator key = the_record.find(std::string("keyword"));
+    if(key != the_record.end()){
+    	the_key_record_map_t::iterator key_rec = key_record_map.find(std::string(key->second));
+    	if(key_rec == key_record_map.end()){
+           key_record_map.insert(std::pair<std::string,the_record_t>(key->second,the_record));
+           LOGF("inserted %s in key map size=%u\n",key->second.c_str(),key_record_map.size());
+        } else {
+           key_rec->second = the_record;
+           LOGF("replaced the record for key %s size=%u\n",key->second.c_str(),key_record_map.size());
+        }
+    } else {
+    	LOGF("ERROR: no keyword record found in the record\n");
+    }
+
+  }
 
 }
 

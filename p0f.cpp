@@ -59,12 +59,6 @@
 #include <string>
 #include <list>
 
-typedef std::map<std::string,std::string> the_record_t;
-the_record_t the_record;
-typedef std::list<the_record_t> the_record_list_t;
-the_record_list_t the_record_list;
-typedef std::map<std::string,the_record_t> the_key_record_map_t;
-the_key_record_map_t key_record_map;
 
 #ifndef PF_INET6
 #  define PF_INET6          10
@@ -78,14 +72,13 @@ the_key_record_map_t key_record_map;
 #  define O_LARGEFILE 0
 #endif /* !O_LARGEFILE */
 
-processor PROCESSOR;
+processor* PROCESSOR;
 
 fp_configurator *my_fp_configurator;
 
 static u8 *use_iface,                   /* Interface to listen on             */
           *orig_rule,                   /* Original filter rule               */
           *switch_user,                 /* Target username                    */
-          *log_file,                    /* Binary log file name               */
           *api_sock,                    /* API socket file name               */
           *fp_file;                     /* Location of p0f.fp                 */
 
@@ -105,7 +98,7 @@ static struct api_client *api_cl;       /* Array with API client state        */
 static s32 null_fd = -1,                /* File descriptor of /dev/null       */
            api_fd = -1;                 /* API socket descriptor              */
 
-static FILE* lf;                        /* Log file stream                    */
+static const char* log_file;
 
 static u8 stop_soon;                    /* Ctrl-C or so pressed?              */
 
@@ -119,7 +112,7 @@ s32 link_type;                          /* PCAP link type                     */
 
 u32 hash_seed;                          /* Hash seed                          */
 
-static u8 obs_fields;                   /* No of pending observation fields   */
+
 
 /* Memory allocator data: */
 
@@ -127,8 +120,6 @@ static u8 obs_fields;                   /* No of pending observation fields   */
 struct TRK_obj* TRK[ALLOC_BUCKETS];
 u32 TRK_cnt[ALLOC_BUCKETS];
 #endif /* DEBUG_BUILD */
-
-#define LOGF(_x...) fprintf(lf, _x)
 
 /* Display usage information */
 
@@ -233,40 +224,6 @@ static void close_spare_fds(void) {
 
 /* Create or open log file */
 
-static void open_log(void) {
-
-  struct stat st;
-  s32 log_fd;
-
-  log_fd = open((char*)log_file, O_WRONLY | O_APPEND | O_NOFOLLOW | O_LARGEFILE);
-
-  if (log_fd >= 0) {
-
-    if (fstat(log_fd, &st)) PFATAL("fstat() on '%s' failed.", log_file);
-
-    if (!S_ISREG(st.st_mode)) FATAL("'%s' is not a regular file.", log_file);
-
-  } else {
-
-    if (errno != ENOENT) PFATAL("Cannot open '%s'.", log_file);
-
-    log_fd = open((char*)log_file, O_WRONLY | O_CREAT | O_EXCL | O_NOFOLLOW,
-                  LOG_MODE);
-
-    if (log_fd < 0) PFATAL("Cannot open '%s'.", log_file);
-
-  }
-
-  if (flock(log_fd, LOCK_EX | LOCK_NB))
-    FATAL("'%s' is being used by another process.", log_file);
-
-  lf = fdopen(log_fd, "a");
-
-  if (!lf) FATAL("fdopen() on '%s' failed.", log_file);
-
-  SAYF("[+] Log file '%s' opened for writing.\n", log_file);
-
-}
 
 
 /* Create and start listening on API socket */
@@ -325,103 +282,6 @@ static void open_api(void) {
 
 /* Open log entry. */
 
-void start_observation(const char* keyword, u8 field_cnt, u8 to_srv,
-                       struct packet_flow* f) {
-
-	the_record.clear();
-	the_record.insert(std::pair<std::string,std::string>(std::string("keyword"),std::string(keyword)));
-	the_record.insert(std::pair<std::string,std::string>(std::string("client_addr"),
-			std::string((char *)utils::addr_to_str(f->client->addr, f->client->ip_ver))));
-	the_record.insert(std::pair<std::string,std::string>(std::string("client_port"),
-			std::to_string(f->cli_port)));
-	the_record.insert(std::pair<std::string,std::string>(std::string("server_addr"),
-			std::string((char *)utils::addr_to_str(f->server->addr, f->server->ip_ver))));
-	the_record.insert(std::pair<std::string,std::string>(std::string("server_port"),
-			std::to_string(f->srv_port)));
-
-  if (obs_fields) FATAL("Premature end of observation.");
-
-  if (!daemon_mode) {
-
-    SAYF(".-[ %s/%u -> ", utils::addr_to_str(f->client->addr, f->client->ip_ver),
-         f->cli_port);
-    SAYF("%s/%u (%s) ]-\n|\n", utils::addr_to_str(f->server->addr, f->client->ip_ver),
-         f->srv_port, keyword);
-
-    SAYF("| %-8s = %s/%u\n", to_srv ? "client" : "server", 
-         utils::addr_to_str(to_srv ? f->client->addr :
-         f->server->addr, f->client->ip_ver),
-         to_srv ? f->cli_port : f->srv_port);
-
-  }
-
-  if (log_file) {
-
-    u8 tmp[64];
-
-    time_t ut = PROCESSOR.get_unix_time();
-    struct tm* lt = localtime(&ut);
-
-    strftime((char*)tmp, 64, "%Y/%m/%d %H:%M:%S", lt);
-
-    LOGF("[%s] mod=%s|cli=%s/%u|",tmp, keyword, utils::addr_to_str(f->client->addr,
-         f->client->ip_ver), f->cli_port);
-
-    LOGF("srv=%s/%u|subj=%s", utils::addr_to_str(f->server->addr, f->server->ip_ver),
-         f->srv_port, to_srv ? "cli" : "srv");
-
-  }
-
-  obs_fields = field_cnt;
-
-}
-
-
-/* Add log item. */
-
-void add_observation_field(const char* key, u8* value) {
-
-  if (!obs_fields) FATAL("Unexpected observation field ('%s').", key);
-
-  if (!daemon_mode)
-    SAYF("| %-8s = %s\n", key, value ? value : (u8*)"???");
-
-  if (log_file) LOGF("|%s=%s", key, value ? value : (u8*)"???");
-
-  the_record.insert(std::pair<std::string, std::string>
-               (std::string(key),std::string((char *)value)));
-
-  obs_fields--;
-
-  if (!obs_fields) {
-
-    if (!daemon_mode) SAYF("|\n`----\n\n");
-
-    if (log_file) LOGF("\n");
-
-    fprintf(stdout,"clear record of size:%u\n", the_record.size());
-    for(auto r : the_record){
-    	fprintf(stdout,"key=%s value=%s\n",r.first.c_str(),r.second.c_str());
-    }
-    the_record_list.push_back(the_record);
-    fprintf(stdout,"record list of size:%u\n", the_record_list.size());
-    the_record_t::iterator key = the_record.find(std::string("keyword"));
-    if(key != the_record.end()){
-    	the_key_record_map_t::iterator key_rec = key_record_map.find(std::string(key->second));
-    	if(key_rec == key_record_map.end()){
-           key_record_map.insert(std::pair<std::string,the_record_t>(key->second,the_record));
-           fprintf(stdout,"inserted %s in key map size=%u\n",key->second.c_str(),key_record_map.size());
-        } else {
-           key_rec->second = the_record;
-           fprintf(stdout,"replaced the record for key %s size=%u\n",key->second.c_str(),key_record_map.size());
-        }
-    } else {
-    	fprintf(stdout,"no keyword record found in the record\n");
-    }
-
-  }
-
-}
 
 
 /* Show PCAP interface list */
@@ -875,7 +735,7 @@ poll_again:
       PFATAL("poll() failed.");
     }
 
-    if (!pret) { if (log_file) fflush(lf); continue; }
+    if (!pret) { if (log_file && PROCESSOR) fflush(PROCESSOR->get_log_stream()); continue; }
 
     /* Examine pfds... */
 
@@ -1034,11 +894,11 @@ poll_again:
 
   while (!stop_soon) {
 
-    s32 ret = pcap_dispatch(pt, -1, (pcap_handler)parse_packet,reinterpret_cast<u_char *>(&PROCESSOR)));
+    s32 ret = pcap_dispatch(pt, -1, (pcap_handler)parse_packet,reinterpret_cast<u_char *>(PROCESSOR)));
 
     if (ret < 0) return;
 
-    if (log_file && !ret) fflush(lf);
+    if (log_file && !ret && PROCESSOR) fflush(PROCESSOR->get_file_stream());
 
     write(2, NULL, 0);
 
@@ -1060,7 +920,7 @@ static void offline_event_loop(void) {
 
   while (!stop_soon)  {
 
-    if (pcap_dispatch(pt, -1, (pcap_handler)processor::static_parse_packet, reinterpret_cast<u_char *>(&PROCESSOR)) <= 0) return;
+    if (pcap_dispatch(pt, -1, (pcap_handler)processor::static_parse_packet, reinterpret_cast<u_char *>(PROCESSOR)) <= 0) return;
 
   }
 
@@ -1152,7 +1012,7 @@ int main(int argc, char** argv) {
       if (log_file)
         FATAL("Multiple -o options not supported.");
 
-      log_file = (u8*)optarg;
+      log_file = (const char *)optarg;
 
       break;
 
@@ -1257,16 +1117,19 @@ int main(int argc, char** argv) {
 
   get_hash_seed();
 
+  // initialize a processor with log file
+  PROCESSOR = new processor(log_file);
+
   // declare a fp configurator
-  my_fp_configurator = new fp_configurator(&PROCESSOR);
+  my_fp_configurator = new fp_configurator(PROCESSOR);
 
   // declare various fingerprint processors
-  fp_http FP_HTTP(&PROCESSOR,my_fp_configurator);
-  fp_tcp FP_TCP(&PROCESSOR,my_fp_configurator);
-  fp_mtu FP_MTU;
+  fp_http FP_HTTP(PROCESSOR,my_fp_configurator);
+  fp_tcp FP_TCP(PROCESSOR,my_fp_configurator);
+  fp_mtu FP_MTU(PROCESSOR);
 
   // set handlers in main processor
-  PROCESSOR.set_fp_handlers(&FP_HTTP,&FP_TCP,&FP_MTU);
+  PROCESSOR->set_fp_handlers(&FP_HTTP,&FP_TCP,&FP_MTU);
 
   // before using the configurator set the fingerprint handlers
   my_fp_configurator->set_fp_handlers(&FP_HTTP,&FP_TCP,&FP_MTU);
@@ -1278,7 +1141,6 @@ int main(int argc, char** argv) {
   prepare_pcap();
   prepare_bpf();
 
-  if (log_file) open_log();
   if (api_sock) open_api();
   
   if (daemon_mode) {
@@ -1297,10 +1159,10 @@ int main(int argc, char** argv) {
   if (read_file) offline_event_loop(); else live_event_loop();
 
   if (!daemon_mode)
-    SAYF("\nAll done. Processed %llu packets.\n", PROCESSOR.get_packet_count());
+    SAYF("\nAll done. Processed %llu packets.\n", PROCESSOR->get_packet_count());
 
 #ifdef DEBUG_BUILD
-  PROCESSOR.destroy_all_hosts();
+  PROCESSOR->destroy_all_hosts();
   TRK_report();
 #endif /* DEBUG_BUILD */
 

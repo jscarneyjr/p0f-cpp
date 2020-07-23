@@ -1182,9 +1182,9 @@ struct tcp_sig* fp_tcp::fingerprint_tcp(u8 to_srv, struct packet_data* pk,
       pk->mss == SPECIAL_MSS) f->sendsyn = 1;
 
   if (to_srv) 
-    start_observation(f->sendsyn ? "sendsyn probe" : "syn", 4, 1, f);
+    my_processor->start_observation(f->sendsyn ? "sendsyn probe" : "syn", 4, 1, f);
   else
-    start_observation(f->sendsyn ? "sendsyn response" : "syn+ack", 4, 0, f);
+    my_processor->start_observation(f->sendsyn ? "sendsyn response" : "syn+ack", 4, 0, f);
 
   tcp_find_match(to_srv, sig, 0, f->syn_mss);
 
@@ -1196,7 +1196,7 @@ struct tcp_sig* fp_tcp::fingerprint_tcp(u8 to_srv, struct packet_data* pk,
 
   } else {
 
-    add_observation_field("os", NULL);
+    my_processor->add_observation_field("os", NULL);
 
   }
 
@@ -1213,9 +1213,9 @@ struct tcp_sig* fp_tcp::fingerprint_tcp(u8 to_srv, struct packet_data* pk,
 
   }
 
-  add_observation_field("params", dump_flags(pk, sig));
+  my_processor->add_observation_field("params", dump_flags(pk, sig));
 
-  add_observation_field("raw_sig", dump_sig(pk, sig, f->syn_mss));
+  my_processor->add_observation_field("raw_sig", dump_sig(pk, sig, f->syn_mss));
 
   if (pk->tcp_type == TCP_SYN) f->syn_mss = pk->mss;
 
@@ -1326,7 +1326,7 @@ void fp_tcp::check_ts_tcp(u8 to_srv, struct packet_data* pk, struct packet_flow*
   up_min = pk->ts1 / freq / 60;
   up_mod_days = 0xFFFFFFFF / (freq * 60 * 60 * 24);
 
-  start_observation("uptime", 2, to_srv, f);
+  my_processor->start_observation("uptime", 2, to_srv, f);
 
   if (to_srv) {
 
