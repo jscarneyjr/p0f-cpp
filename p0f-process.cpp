@@ -94,6 +94,7 @@ processor::~processor(){
 
 FILE *processor::get_log_stream(){ return lf; }
 u32 processor::get_hash_seed() { return hash_seed; }
+const the_record_list_t &processor::get_record_list(){return the_record_list;}
 
 void processor::open_log(void) {
 
@@ -135,14 +136,17 @@ void processor::start_observation(const char* keyword, u8 field_cnt, u8 to_srv,
 
 	the_record.clear();
 	the_record.insert(std::pair<std::string,std::string>(std::string("keyword"),std::string(keyword)));
-	the_record.insert(std::pair<std::string,std::string>(std::string("client_addr"),
+	if(to_srv){
+	    the_record.insert(std::pair<std::string,std::string>(std::string("client_addr"),
 			std::string((char *)utils::addr_to_str(f->client->addr, f->client->ip_ver))));
-	the_record.insert(std::pair<std::string,std::string>(std::string("client_port"),
+	    the_record.insert(std::pair<std::string,std::string>(std::string("client_port"),
 			std::to_string(f->cli_port)));
-	the_record.insert(std::pair<std::string,std::string>(std::string("server_addr"),
+	} else {
+	    the_record.insert(std::pair<std::string,std::string>(std::string("server_addr"),
 			std::string((char *)utils::addr_to_str(f->server->addr, f->server->ip_ver))));
-	the_record.insert(std::pair<std::string,std::string>(std::string("server_port"),
+	    the_record.insert(std::pair<std::string,std::string>(std::string("server_port"),
 			std::to_string(f->srv_port)));
+	}
 
   if (obs_fields) FATAL("Premature end of observation.");
 
@@ -204,24 +208,24 @@ void processor::add_observation_field(const char* key, u8* value) {
 
     if (log_file) LOGF("\n");
 
-    LOGF("current record of size:%u contains:\n", the_record.size());
+    DEBUG("[#] current record of size:%u contains:\n", the_record.size());
     for(auto r : the_record){
-    	LOGF("key=%s value=%s\n",r.first.c_str(),r.second.c_str());
+    	DEBUG("[#]     key=%s value=%s\n",r.first.c_str(),r.second.c_str());
     }
     the_record_list.push_back(the_record);
-    LOGF("the list of all records now has size %u\n", the_record_list.size());
+    DEBUG("[#] the list of all records now has size %u\n", the_record_list.size());
     the_record_t::iterator key = the_record.find(std::string("keyword"));
     if(key != the_record.end()){
     	the_key_record_map_t::iterator key_rec = key_record_map.find(std::string(key->second));
     	if(key_rec == key_record_map.end()){
            key_record_map.insert(std::pair<std::string,the_record_t>(key->second,the_record));
-           LOGF("inserted %s in key map size=%u\n",key->second.c_str(),key_record_map.size());
+           DEBUG("[#] inserted %s in key map size=%u\n",key->second.c_str(),key_record_map.size());
         } else {
            key_rec->second = the_record;
-           LOGF("replaced the record for key %s size=%u\n",key->second.c_str(),key_record_map.size());
+           DEBUG("[#] replaced the record for key %s size=%u\n",key->second.c_str(),key_record_map.size());
         }
     } else {
-    	LOGF("ERROR: no keyword record found in the record\n");
+    	DEBUG("[#] ERROR: no keyword record found in the record\n");
     }
 
   }
@@ -1166,9 +1170,9 @@ void processor::nuke_flows(u8 silent) {
 
   u32 kcnt = 1 + (flow_cnt * KILL_PERCENT / 100);
 
-  if (silent)
+  if (silent){
     DEBUG("[#] Pruning connections - trying to delete %u...\n",kcnt);
-  else if (!read_file)
+  } else if (!read_file)
     WARN("Too many tracked connections, deleting %u. "
          "Use -m to adjust.", kcnt);
 

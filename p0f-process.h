@@ -257,6 +257,8 @@ public:
     FILE *get_log_stream();
     u32 get_hash_seed();
 
+    const the_record_list_t &get_record_list();
+
 private:
     void find_offset(const u8* data, s32 total_len);
     u32 get_flow_bucket(struct packet_data* pk);

@@ -1121,7 +1121,7 @@ int main(int argc, char** argv) {
   prepare_pcap();
   prepare_bpf();
 
-  // initialize a processor with log file
+  // initialize a processor with log file and other parameters
   PROCESSOR = new processor(read_file,
 		    log_file,
 			max_conn,
@@ -1149,6 +1149,7 @@ int main(int argc, char** argv) {
   // read the fingerprint configuration file
   my_fp_configurator->read_config(fp_file ? fp_file : (u8*)FP_FILE);
 
+  // PROCESSOR and fingerprint handler is all configured and ready for use
 
   if (api_sock) open_api();
   
@@ -1165,6 +1166,8 @@ int main(int argc, char** argv) {
   signal(SIGINT, abort_handler);
   signal(SIGTERM, abort_handler);
 
+  // process the pcap file offline or use live pcap interface
+  // these both make use of the allocated PROCESS object
   if (read_file) offline_event_loop(); else live_event_loop();
 
   if (!daemon_mode)
@@ -1173,6 +1176,23 @@ int main(int argc, char** argv) {
 #ifdef DEBUG_BUILD
   PROCESSOR->destroy_all_hosts();
   TRK_report();
+  // dump all OS records found
+  DEBUG("\n\nDump of all OS records:\n");
+  for(auto R : PROCESSOR->get_record_list()){
+	  // if the record contains key of type "os"
+	  const auto os = R.find("os");
+	  if ( os != R.end()) {
+		// records contain either server or client addresses
+		for(const auto r : R){
+			if(r.first == "server_addr"){
+			   DEBUG(" %s -> %s\n",r.second.c_str(),os->second.c_str());
+			}
+			if(r.first == "client_addr"){
+			   DEBUG(" %s -> %s\n",r.second.c_str(), os->second.c_str());
+			}
+		}
+	  }
+  }
 #endif /* DEBUG_BUILD */
 
 

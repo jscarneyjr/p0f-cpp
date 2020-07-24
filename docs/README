@@ -9,10 +9,23 @@
 
 
 ---------------
-1. What's this?
+0. New What's this?
 ---------------
-This is a version of the original tool that uses C++ classes and has been 
-modified to compile with GNU 9.0.3 compiler on CENTOS
+This is a C++ version of the original C based p0f tool. It uses C++ classes 
+and has been modified to compile with GNU 9.0.3 compiler on CENTOS. It has
+NOT been tested in a Windows environment and currently defaults to compile 
+in DEBUG mode.  Base memory management methods have not been modified other 
+than to work in a 64bit environment. Some C++ container use has been added 
+to collect information as packets are processed. Other than that, this is 
+as fully functional as the original C version.
+
+All the original Copyrights have been maintained as this author has done
+nothing but fix syntax and re-arrange code to work in  a C++ environment.
+All credit still belongs to Michal Zalewski <lcamtuf@coredump.cx>
+
+---------------
+1. Original What's this?
+---------------
 
 P0f is a tool that utilizes an array of sophisticated, purely passive traffic
 fingerprinting mechanisms to identify the players behind any incidental TCP/IP
